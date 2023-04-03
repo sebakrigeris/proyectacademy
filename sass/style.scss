@@ -10,7 +10,10 @@
         font-family: "Font MK" ;
         src: url("../assets/fonts/waltograph42.otf");
     }   
-    
+    @font-face {
+        font-family: "font-cursos";
+        src: url("../assets/fonts/MADE\ Outer\ Sans\ Light\ PERSONAL\ USE.otf");
+    }
     /* Selector Universal - Margenes y Padding */
     * {
         margin: 0;
@@ -18,33 +21,64 @@
         box-sizing: border-box; 
     }
     
-    body {
-        background-color: black; 
+    body{
+        overflow-x: hidden;
     }
     
     .background-navbar {
         width: 100%;
-        height: 1200px;
-        background: url("../assets/background/mk5.jpg");
+        height: 100vh;
+        background: url("../assets/background/backgroundProd.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed; 
+        background-attachment: fixed;
     }
+
+    .img-portada {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: -22.1rem;
+        margin-right: 5rem;
+        margin-left: 10rem; 
+    }
+
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: none;
+            
+        }
     
-    .collapse {
+
+        //NAVBAR 
+
+    .nav-academy {
         display: flex;
         justify-content: center;
-        align-items: center; 
+                
+        .ul-academy {
+            display: flex;
+            gap: 4rem;
+            list-style-type: none;
+            margin-top: 25px;
+        }
+        .li-academy {
+            font-family: "Font Nav";
+            font-size: 20px; 
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            }
+
+        a:hover {
+            color: rgb(178, 140, 196);
+        }
     }
-    
-    .nav-link {
-        color: white;
-        font-size: 1.2rem;
-        margin-right: 35px;
-        margin-left: 35px;
-        font-family: 'Font Nav'; 
-    }
-    
+
+
+
     .Font-mk {
         font-family: 'Font Tittle';
         font-size: 120px;
@@ -59,55 +93,630 @@
         text-align: center; 
     }
 
-    .btn-mk {
-        position: relative;
-        top: 45%;
-        left: 44%;
-        font-size: 50px;
-        padding: 5px 40px;
-        border-radius: 3rem;
 
+    // BTN CURSO 
 
+    .btn-cursos {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            font-size: 1.5rem;
+            z-index: 1;
+            position: relative;
+            -webkit-box-shadow: 0 5px 15px rgba(33, 33, 33, .2);
+            box-shadow: 0 5px 15px rgba(33, 33, 33, .2);
+            overflow: hidden;
+          }
+          
+          button > span {
+            z-index: 2;
+          }
+          
+          button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+            background-color: #212121;
+            z-index: -1;
+            overflow: hidden;
+            -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+            transform-origin: right;
+            -webkit-transition: -webkit-transform 0.2s ease-in;
+            transition: -webkit-transform 0.2s ease-in;
+            transition: transform 0.2s ease-in;
+          }
+          
+          button:hover {
+            color: #e8e8e8;
+          }
+          
+          button:hover::before {
+            -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+            transform: scaleX(1);
+            -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+            transform-origin: left;
+          }
     }
-    
+
+    // INDEX - 1 
+
+
     .img-mk {
         width: 100%;
         height: 1100px;
-        background: url("../assets/background/milad-fakurian-DX7pT_guAyE-unsplash.jpg");
+        background: url("../assets/background/backp.jpg");
         background-size: cover;
+        
         display: flex;
         justify-content: center; 
     
+
         .melisak2 {
-        position: relative;
-        margin-top: 150px;
-        margin-bottom: 150px;
-        left: 40rem; 
+        margin-top: 6rem;
+        margin-left: 4.5rem;
+        box-shadow: 0 0 20px 0 rgba(168, 119, 233, 0.4);
+        
     }
+
         .melisak1 {
-        position: relative;
-        margin-top: 265px;
-        left: -17rem; 
+        position: absolute;
+        top: 22rem;
+        left: -3rem;
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.4);
     }
+    
         .h2-mk {
-        width: 100%;
+        width: 160%;
         font-family: "Font MK" ;
         color: white;
         display: block;
         position: relative;
-        top: 220px;
-        left: 9rem; 
+        top: 110px;
+        left: 4rem;
+        
+        
     }
     h2 {
         font-size: 80px;
     }
+
         h3 {
-        width: 280%;
+        width: 140%;
+        height: 400px;
         font-family: "Font MK" ;
-        font-size: 40px;
-        color: white;
+        font-size: 43px;
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.755);
+        border-radius: 0.5rem;
+        padding: 40px;
         position: relative;
-        top: 40rem;
-        right: 25rem; 
+        top: 30rem;
+        right: 18rem; 
+        text-align: center;
+
+    }
+
+    .logo {
+        position: absolute;
+        top: 71rem;
+        right: -5rem;
+
+    }
+}
+
+
+
+
+
+.backp2 {
+    width: 100%;
+    height: 1000px;
+    background: url("../assets/background/backgroundProd.jpg");
+    background-size: cover;
+}
+
+
+
+    
+
+    .swiper {
+    
+        width: 100%;
+        height: 90%;
+        
+    
+
+    .swiper-wrapper {
+        margin-top: 6.5rem;
+        
+        
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    img {        
+        display: block;
+
+        
+        
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 0 0 20px 0 rgba(168, 119, 233, 0.493);
+        
+    }
+}
+
+
+
+// FOOTER
+
+footer {
+    display: block;
+}
+
+.back-footer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+    
+    width: 100%;
+    height: 150px;
+    background-color: rgb(117, 85, 149);
+    color: white;
+    text-align: center;
+    
+
+    .footer-melisa {
+        margin-top: 25px;
+        
+        font-size: 50px;
+        font-family: 'Font Tittle';
+        text-align: center;
+    }
+    .footer-academia {
+        font-size: 22px;
+        text-transform: uppercase;
+        
+    }
+}
+
+.redes {
+    width: 100%;
+    
+
+    background-color: rgb(142, 103, 181);
+
+    display: block;
+}
+
+.redesicon {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+    a {
+        margin-top: 20px;
+    }
+}
+
+.developed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        width: 70%;
+        border-top: 1px solid rgba(255, 255, 255, 0.681);
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+}
+
+
+
+
+
+
+
+/* PÁGINA CURSOS */
+
+
+.body-curse {
+    width: 100%;
+    background: url("../assets/background/backgroundProd.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto-cursos {
+    font-family: "font-cursos";
+    font-size: 70px;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin: 5rem 0rem;
+    margin-left: 12rem;
+}
+
+
+.container-cursos {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+
+    .fondo-curso {
+        background-color: #00000094;
+        width: 750px;
+        display: flex;
+        
+        .info {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            
+            p {
+                font-family: "font-cursos";
+                font-size: 30px;
+                text-align: center;
+                color: white;
+                padding: 10px;
+                border-bottom: 1px solid white;
+                width: 80%;
+            
+            }
+            button {
+                position: relative;
+                display: inline-block;
+                cursor: pointer;
+                outline: none;
+                border: 0;
+                vertical-align: middle;
+                text-decoration: none;
+                background: transparent;
+                padding: 0;
+                font-size: inherit;
+                font-family: 'Questrial', sans-serif;
+                letter-spacing: 1px;
+                
+            }
+            
+            button.learn-more {
+                width: 11rem;
+                height: auto;
+            }
+            
+            button.learn-more .circle {
+                -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                position: relative;
+                display: block;
+                margin: 0;
+                width: 3rem;
+                height: 3rem;
+                background: #fcfcfc;
+                border-radius: 1.625rem;
+            }
+            
+            button.learn-more .circle .icon {
+                -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: #000000;
+            }
+            
+            button.learn-more .circle .icon.arrow {
+                -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                left: 0.625rem;
+                width: 1.125rem;
+                height: 0.125rem;
+                background: none;
+            }
+            
+            button.learn-more .circle .icon.arrow::before {
+                position: absolute;
+                content: "";
+                top: -0.29rem;
+                right: 0.0625rem;
+                width: 0.625rem;
+                height: 0.625rem;
+                border-top: 0.125rem solid #000000;
+                border-right: 0.125rem solid #000000;
+                -webkit-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                        transform: rotate(45deg);
+            }
+            
+            button.learn-more .button-text {
+                -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 0.75rem 0;
+                margin: 0 0 0 1.85rem;
+                color: #ffffff;
+                font-weight: 700;
+                line-height: 1.6;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            
+            button:hover .circle {
+                width: 100%;
+            }
+            
+            button:hover .circle .icon.arrow {
+                background: #ffffff;
+                -webkit-transform: translate(1rem, 0);
+                    -ms-transform: translate(1rem, 0);
+                        transform: translate(1rem, 0);
+            }
+            
+            button:hover .button-text {
+                color: #000000;
+            }
+        }
+
+        
+        .modal-cont::backdrop {
+            background-color: rgba(0, 0, 0, 0.55);
+        }
+
+        .modal-cont {
+            width: 1200px;
+            height: 700px;
+            margin: auto;
+            text-align: center;
+            border: none;
+            background-color: rgb(240, 240, 240);
+            color: black;
+            padding: 2rem;
+            border-radius: 0.5em;
+            font-family: 'Questrial', sans-serif;
+
+            img {
+                box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+            }
+
+            
+
+            h2 {
+                margin-bottom: 2rem;
+                font-size: 50px;
+            }
+            
+            p {
+                width: 100%;
+                color: black;
+                font-size: 20px;
+                border: none;
+                font-family: 'Questrial', sans-serif;
+            }
+
+            .contenido-modal {
+                display: grid;
+                grid-template-columns: repeat(2, 550px);
+                justify-items: center;
+                
+                                
+                margin-top: 3rem;
+                gap: 1.5rem;
+
+                .temario {
+                    // border-top: 1px solid black;
+                    // border-right: 1px solid black;
+                    padding: 0.5rem;
+                    margin-top: 3rem;
+                    
+                }
+                ul {
+                    text-align: start;
+                    margin-right: 1rem;
+                }
+                .info-curso1 {
+                    text-align: start;
+                    background-color: #000000;
+                    border-radius: 0.5rem;
+                    color: white;
+                    padding: 1.5rem;
+                }
+            }
+            .btn-cerrar {
+                margin-top: 4rem;
+            }
+        }
+        
+    }
+    
+}
+
+
+
+
+
+// PAGE CONTACT 
+
+
+
+.back-c {
+    position: fixed;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    z-index: -1;
+
+    
+}
+
+.nav-contact {
+
+    width: 28%;
+    background: rgba(0, 0, 0, 0.341);
+    margin: auto;
+    padding-right: 30px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    
+    
+}
+
+// FORM 
+
+.form {
+    width: 50%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.41);
+    padding: 20px 0px;
+
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 18%;
+    left: 25%;
+
+
+
+    .font-tittle {
+        font-size: 90px;
+    }
+
+
+    p {
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+    label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    input {
+        width: 80%;
+        border: none;
+        border-bottom: 2px solid white;
+        background: transparent;
+        outline: none;
+        color: white;
+    }
+
+    textarea{
+        width: 80%;
+        outline: none;
+        background-color: rgba(168, 119, 233, 0.4);
+        color: white;
+    }
+    button {
+        width: 80%;
+        padding: 10px;
+        border: none;
+        transition: 0.3s;
+    }
+    button:hover{
+        background-color: rgba(197, 105, 240, 0.611);
+        color: white;
+
+    }
+}
+
+
+
+
+// media querys 
+
+@media only screen and (max-width: 320px) {
+
+
+    // NAV BURGER 
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+    }
+
+    
+
+    .nav-academy {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: black;
+        padding: 3rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    }
+
+    .ul-academy {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 2rem;
+        
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+
+
+    .background-navbar {
+        
+        background-size: 320px;
+        
+    }
+
+    .Font-mk {
+        font-size: 50px;
     }
 }

@@ -4,67 +4,206 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- AN Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Font Awesome -->
 
+    
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./css/animate.css">
     <!-- Libreria Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Estilos CSS WSP -->
+    <link rel="stylesheet" href="./css/styleWSP.css">
     <!-- Estilos CSS3 -->
     <link rel="stylesheet" href="./css/estilos.css">
+    
     <!-- Titulo Index -->
     <title>Academia Melisa Krigeris</title>
+
+</head>
+
 <body>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=598093893255&text=¡Hola Melisa!, me gustaría obtener más información sobre los cursos disponibles." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float "></i>
+    </a>
+
     <header class="background-navbar">
-    <nav class="navbar navbar-expand-lg back-mk">
-        <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="#">Academia Melisa Krigeris</a> -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Cursos</a>
-            </li> -->
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-            </li>
+
+        <button class="abrir-menu">Abrir</button>
+
+        <nav class="nav-academy">
+
+            <button class="cerrar-menu">Cerrar</button>
+
+    
+            <ul class="ul-academy">
+                <li class="li-academy"><a href="#">Inicio</a></li>
+                <li class="li-academy"><a href="/pages/contacto.html">Contacto</a></li>
             </ul>
-        </div>
-        </div>
-    </nav>
-    <h1 class="Font-mk">Melisa Krigeris</h1>
+
+        </nav>
+
+        
+        <h1 class="Font-mk wow flip">Melisa Krigeris</h1>
         <p class="Font-academia">ACADEMIA</p>
-        <button type="button" class="btn-mk btn btn-outline-light">Cursos</button>
+        
+        <div class="btn-cursos">
+
+            
+            <button>
+                <span>
+                Hover me
+                </span>
+            </button>
+            
+
+        </div>
+
+    
+
+    <div class="img-portada">
+        <img src="./assets/img/portada2.png" alt="" width="700px" height="700px">
+        <img  src="./assets/img/portada1.png" alt="" width="700px">
+    </div>
+
+        
+
     </header>
 
     <main>
+
         <section class="img-mk">
             
-            <div>
-                <img class="melisak2" src="./assets/img/MelisaK2.jpg" alt="" width="550px">
+            
+            <div data-aos="fade-up">
+                <img class="melisak2" src="./assets/img/MelisaK2.jpg" alt="" width="600px">
             </div>
-                <div>
+                <div data-aos="fade-up">
                 <img class="melisak1" src="./assets/img/MelisaK1.jpg" alt="" width="400px" height="600">
             </div> 
-            <div  class="h2-mk">
-            <h2>¡Hola! Soy Melisa Krigeris. <br> Educadora Gold Mia Secret</h2>
-        </div>
-            <div>
-                <h3>En este sitio podrás encontrar la información <br> correspondiente a nuestra academia.</h3>
+            <div class="logo" data-aos="zoom-in-up" data-zoom-in-up-duration="3000">
+                <img src="./assets/logo/LOGOAC.png" alt="" width="600px">
             </div>
+            <div data-aos="fade-up" class="h2-mk">
+            <h2 >¡Hola! Soy Melisa Krigeris, <br>Educadora Mia Secret.</h2>
+        </div>
+            <div class="border-h3" data-aos="fade-up-left" data-aos-duration="7000">
+                <h3>En este sitio podrás encontrar gran variedad de capacitaciones profesionales de alto nivel. <br> Además, en todos nuestros cursos obtendras certificaciones profesionales que abalen el trabajo realizado por la alumna correspondiente a nuestra academia.</h3>
+            </div>
+
+
+            
+            
+        </section>
+        
+
+        <section>
+
+            <div class="backp2">
+
+                        <!-- Swiper -->
+
+                    
+                
+                        
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        
+        <div class="swiper-slide"><img src="./assets/img/swiper1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/img/swiper3.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/img/swiper2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/img/swiper4.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/img/swiper5.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/img/swiper6.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/img/MelisaK1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/img/MelisaK2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/img/MelisaK3.jpg" alt=""></div>
+        
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+            </div>
+
+</section>
+
+
+<footer >
+
+        <div class="back-footer">
+
+        <h2 class="footer-melisa">Melisa Krigeris</h2>
+        <p class="footer-academia">ACADEMIA</p>
+
+        </div>
+
+        <div class="redes">
+
+            <div class="redesicon">
+            <a href="https://www.instagram.com/melisakrigerisacademia/" target="_blank" rel="noopener noreferrer"><img src="./assets/icons/instagram.png" alt="" width="50px"></a>
+            <a href="https://www.facebook.com/MelisaKrigerisAcademia" target="_blank" rel="noopener noreferrer"><img src="./assets/icons/facebook.png" alt="" width="50px"></a>
+            <a href="https://wa.link/satmes" target="_blank" rel="noopener noreferrer"><img src="./assets/icons/whatsapp.png" alt="" width="50px"></a>
+        </div>
+
+            <div class="developed">
+                <p >Site web developed by @Sebastian Krigeris</p>
+            </div>
+
+        </div>
+
             
 
-        </section>
+        
+    
+    
+</footer>    
+                        
+                    
+
+    </main>
+
+
+    
+        <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        });
+    </script>
 
 
 
-</main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
 
-
-
+    <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
