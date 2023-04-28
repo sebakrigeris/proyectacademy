@@ -15,74 +15,51 @@
     <!-- Estilos CSS3 -->
     <link rel="stylesheet" href="../css/estilos.css">
 
-    <script src="javascript/wow.min.js"></script>
-            <script>
-            new WOW().init();
-            </script>
-
     <title>Academia MK - Conctacto</title>
+
 </head>
+
 <body>
     
-    <div class="opacity-video">
+    
     <video class="video-mk back-c" autoplay muted controls width="100%">
         <source src="../assets/img/Melisa - Compressed with FlexClip.mp4">
     </video>
+
+
+<div class="div-nav div-contacto">
+    <button id="abrir-nav" class="abrir-nav"><img class="nav-abrir" src="../assets/icons/nav-abrir.png" alt="" width="30px"></button>
 </div>
-    <nav class="nav-academy nav-contact">
-        <ul class="ul-academy">
-            <li class="li-academy"><a class="a-academy" href="../index.html">Inicio</a></li>
-            <li class="li-academy"><a class="a-academy" href="./contacto.html">Contacto</a></li>
-            
+
+    <nav id="nav" class="nav nav-contacto">
+
+        <button id="cerrar-nav" class="cerrar-nav"><img src="../assets/icons/x.png" alt="" width="30px"></button>
+
+        <ul class="ul-contacto">
+            <li><a href="../index.html">Inicio</a></li> 
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./cursos.html">Cursos/Talleres</a></li>
         </ul>
     </nav>
 
     <main>
 
-        <form class="form">
-            <h1 class="Font-mk wow flip font-tittle">Melisa Krigeris</h1>
-        <p class="Font-academia font-academia">ACADEMIA</p>
-
-            <p>
-                <label for="nombre-completo">Nombre completo</label>
-                <input type="text" name="nombre-completo">
-            </p>
-    
-            <p>
-                <label for="correo">Correo Electrónico</label>
-                <input type="email" name="correo">
-            </p>
-    
-            <p>
-                <label for="telefono">Teléfono</label>
-                <input type="tel" name="telefono">
-            </p>
-    
-            <p>
-                <label for="asunto">Asunto</label>
-                <input type="text" name="asunto">
-            </p>
-    
-            <p class="bloque">
-                <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" rows="3"></textarea>
-            </p>
-    
-            <p class="bloque">
-                <button>
-                    Enviar
-                </button>
-            </p>
-    
-        </form>
-
-
-
+        <div class="container-contacto">
+            <h2>Melisa Krigeris</h2>
+            <h4>Academia</h4>
+            <div class="contacto-wsp">
+                <p>Contáctanos a través de este enlace directo a nuestro WhatsApp para obtener la atención personalizada que mereces.</p>
+                <div>
+                <button><img src="../assets/icons/wsp-contacto.png" alt="" width="40px"> WhatsApp</button>
+                </div>
+            </div>
+        </div>
+        
     </main>
 
     
 
-
+<script src="../javascript/nav.js"></script>
 
 
 </body>

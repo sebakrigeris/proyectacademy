@@ -27,14 +27,20 @@
 </head>
 
 <body class="body-curse">
-    
-    <nav class="nav-academy">
-        <ul class="ul-academy">
-            <li class="li-academy"><a class="a-academy" href="../index.html">Inicio</a></li>
-            <li class="li-academy"><a class="a-academy" href="./contacto.html">Contacto</a></li>
-            
-        </ul>
-    </nav>
+
+        <div class="div-nav">
+        <button id="abrir-nav" class="abrir-nav"><img class="nav-abrir" src="../assets/icons/nav-abrir.png" alt="" width="30px"></button>
+        </div>
+
+        <nav id="nav" class="nav">
+
+            <button id="cerrar-nav" class="cerrar-nav"><img src="../assets/icons/x.png" alt="" width="30px"></button>
+
+            <ul>
+                <li><a href="../index.html">Inicio</a></li> 
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     
 <main>
 
@@ -49,7 +55,7 @@
             
             <div class="info">
                 <p>Inicial Acrílico</p>
-                <div>
+                <div class="button">
                     <button class="learn-more">
                         <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
@@ -70,12 +76,14 @@
 
                         <img src="../assets/img/inicial-acrilico.png" alt="" width="370px">
                         <div>
-                            <h3>Información:</h3>
-                            <p class="info-curso1">Nuestro curso de Inicial de Acrílico se realizará en 4 clases, el valor de cada clase es de $1,400, incluye certificado, material para trabajar en clase y seguimiento de cada alumna. 
-                                En cada clase veremos distintos temas e iremos sumando conocimientos de manera que vayan aprendiendo cada técnica.
-                                La carga horaria sera de 2hs a 2:30hs por clase aproximadamente.
-                                Día y hora de cursada, se coordinan a tus tiempos.
-                                Contacto educadora: Melisa Krigeris 093 893 255.</p>
+                            <h3>Información y costos:</h3>
+                                <ul class="info-curso1">
+                                    <li>Clases: 4</li>
+                                    <li>Costo: $1.400 por clase o $5.600 (total).</li>
+                                    <li>Carga horaria: 2hs - 2:30hs por clase.</li>
+                                    <li>Incluye: Certificado, material para trabajar en clase y seguimiento.</li>
+                                    <li>Días y horarios se coordinan a tus tiempos.</li>
+                                </ul>
                         </div>
                         <div class="temario">
                             <h3>Temario del curso:</h3>
@@ -126,27 +134,15 @@
                     <div class="contenido-modal">
 
                         <img src="../assets/img/dipping-gel.png" alt="" width="370px">
-
-                        <!-- <div class="temario">
-                            <h3>Temario del curso:</h3>
-                            <ul>
-                                <li>Esculpido con tips.</li>
-                                <li>Estructuras de salon: Coffin, Almendra clásica, square y stiletto.</li>
-                                <li>Tecnicas:</li>
-                                <li>Encapsulado</li>
-                                <li>Baby Boomer tradicional y color</li>
-                                <li>Esmaltado semipermanente sobre uñas esculpidas</li>
-                                <li>Colocación de foil</li>
-                                <li>Colocación de piercing</li>
-                                <li>Retirado completo</li>
-                                <li>Service de la uña</li>
-                            </ul>
-                        </div> -->
                         <div>
                             <h3>Información:</h3>
-                            <p class="info-curso1">Te brindaremos todas las herramientas necesaras para 
-                                que puedas salir al campo laboral, dicho curso constará de una carga horaria de 3hrs teorico/practico. Incluye material para trabajar en clase, certificado y seguimiento. Su costo es de $2.500
-                            </p>
+                            <ul class="info-curso1"> 
+                                <li>Clases: 1</li>
+                                <li>Costo: $2.500</li>
+                                <li>Carga horaria: 3hs</li>
+                                <li>Incluye: Certificado, material para trabajar en clase y seguimiento.</li>
+                                <li>Días y horarios se coordinan a tus tiempos.</li>
+                            </ul>
                         </div>
                     </div>
                     <button class="btn-cerrar">Cerrar</button>
@@ -159,7 +155,7 @@
             <img src="../assets/img/manicuria-etc.png" alt="" width="370px">
 
             <div class="info">
-                <p>Manicuría Rusa, esmaltado en gel y decoración de salon</p>
+                <p>Manicuría Rusa, kapping, esmaltado en gel y decoración de salon.</p>
                 <div>
                     <button class="learn-more">
                         <span class="circle" aria-hidden="true">
@@ -176,14 +172,20 @@
                 </div>
 
                 <dialog id="modal3" class="modal-cont">
-                    <h2>Manicuría Rusa, esmaltado en gel y decoración de salon</h2>
+                    <h2>Manicuría Rusa, kapping, esmaltado en gel y decoración de salon</h2>
                     <h4>No se requieren conocimientos previos y es el indicado para aquellas personas que tienen como objetivo trabajar sobre uñas naturales sin que sea necesario esculpir la misma.</h4>
                     <div class="contenido-modal">
 
                         <img src="../assets/img/manicuria-etc.png" alt="" width="370px">
                         <div>
                             <h3>Información:</h3>
-                            <p class="info-curso1">El siguiente curso dispondrá de un día intensivo en donde aprenderás todas las técnicas, el mismo constará de teoría y practica en cabeza de practica, de este modo te brindaremos las herramientas necesarias para que puedas desarrollarte como profesional.</p>
+                            <ul class="info-curso1">
+                                <li>Clases: 2</li>
+                                <li>Costo: $2.250 por clase o $4.500(total).</li>
+                                <li>Carga horaria: 2:30hs por clase.</li>
+                                <li>Incluye: Certificado, material para trabajar en clase y seguimiento.</li>
+                                <li>Días y horarios se coordinan a tus tiempos.</li>
+                            </ul>
                         </div>
                         <div class="temario">
                             <h3>Temario del curso:</h3>
@@ -233,10 +235,15 @@
                         <img src="../assets/img/extension-pestañas.png" alt="" width="370px">
                         <div>
                             <h3>Información:</h3>
-                            <p class="info-curso1">El siguiente curso dispondrá de un día intensivo en donde
-                                aprenderás todas las técnicas, el mismo constará de teoría
-                                y practica en cabeza de practica, de este modo te brindaremos las herramientas necesarias para que puedas desarrollarte como profesional.</p>
-                        </div>
+                                <ul class="info-curso1">
+                                    <li>Teoría y practica en cabeza de práctica.</li>
+                                    <li>Clases: 1 día intensivo o 2 clases.</li>
+                                    <li>Costo: $5.000</li>
+                                    <li>Carga horaria: de 4hs a 5hs.</li>
+                                    <li>Incluye: Certificado, material para trabajar en clase y seguimiento.</li>
+                                    <li>Días y horarios se coordinan a tus tiempos.</li>
+                                </ul>
+                            </div>
                         <div class="temario">
                             <h3>Temario del curso:</h3>
                             <ul>
@@ -286,23 +293,16 @@
                         <img src="../assets/img/perfeccionamiento.png" alt="" width="370px">
                         <div>
                             <h3>Información:</h3>
-                            <p class="info-curso1"></p>
-                        </div>
-                        <div class="temario">
-                            <h3>Temario del curso:</h3>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                            <ul class="info-curso1">
+                                <li>Podrás optar por sistemas en gel o acrílico, acorde a tus necesidades.</li>
+                                <li>Clases: 1</li>
+                                <li>Costo: $4.500</li>
+                                <li>Carga horaria: 4hs</li>
+                                <li>Incluye: Certificado, material para trabajar en clase y seguimiento.</li>
+                                <li>Días y horarios se coordinan a tus tiempos.</li>
                             </ul>
                         </div>
+                        
                     </div>
                     <button class="btn-cerrar">Cerrar</button>
                 </dialog>
@@ -340,7 +340,13 @@
                         <img src="../assets/img/curso-integral.png" alt="" width="370px">
                         <div>
                             <h3>Información:</h3>
-                            <p class="info-curso1">Nuestro curso integral</p>
+                            <ul class="info-curso1">
+                                <li>Clases: 15 (3 meses y medio)</li>
+                                <li>Costo Curso integral grupal: Se abonará $4.500 por mes y en el medio mes $2.000. (El mismo dispone de una fecha y horarios ya establecidos - Consultar antes de anotarse.)</li>
+                                <li>Costo Curso integral Personalizado: $1.500 cada clase (Día y horario se coordinan a tus tiempos).</li>
+                                <li>Carga horaria: 2:30hs a 3:00hs por clase.</li>
+                                <li>Incluye: Certificado, material para trabajar en clase y seguimiento.</li>
+                            </ul>
                         </div>
                         <div class="temario">
                             <h3>Temario del curso:</h3>
@@ -394,16 +400,18 @@
 
                 <dialog id="modal7" class="modal-cont">
                     <h2>Tecnicatura Profesional</h2>
-                    <h4>Nuestra tecnicatura profesional está creada con el fin de acompañar desde el inicio (sin ser requisito tener conocimiento previo) abarcando diversos niveles educativos.</h4>
+                    <h4>Nuestra tecnicatura profesional está creada con el fin de acompañar desde el inicio (sin ser requisito tener conocimiento previo) abarcando diversos niveles educativos. Logrando certificar esculpidoras profesionales que obtengan todos los conocimientos en profundidad.</h4>
                     <div class="contenido-modal">
 
                         <img src="../assets/img/tecni-profesional.png" alt="" width="370px">
                         <div>
                             <h3>Información:</h3>
-                            <p class="info-curso1"> Nuestra Tecnicatura Profesional tiene como fin certificar esculpidoras profesionales que obtengan todos los conocimientos en profundidad.
-                            Su duracion es de 6 meses y medio (27 clases en total). Se realizaran 1 clase por semana, con una carga horaria de 2:30hs a 3:30hs, cada clase tiene un valor de $1.300 presencial. 
-                            Incluye: ( material para trabajar en clases siendo modalidad presencial),
-                            certificado y seguimiento.( online o presencial)</p>
+                            <ul class="info-curso1">
+                                <li>Clases: 27 (6 meses y medio).</li>
+                                <li>Costo Tecnicatura Grupal: $1.300 por clase. (La misma ya dispone de una fecha y horario - se debe consultar los mismos previo a anotarse.)</li>
+                                <li>Costo Tecnicatura personalizada (individual): $1.600 (Día y horario se coordinan a tus tiempos).</li>
+                                <li>Incluye: Certificado, material para trabajar en clase y seguimiento.</li>
+                            </ul>
                         </div>
                         <div class="temario">
                             <h3>Temario del curso:</h3>
@@ -504,6 +512,26 @@
 
 </main>
 
+<footer>
+
+    <div class="back-footer">
+        <h2>Melisa Krigeris</h2>
+        <p>ACADEMIA</p>
+    </div>
+
+        
+    <div class="redes-icon">
+        <a href="https://www.instagram.com/melisakrigerisacademia/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons/instagram.png" alt="" width="50px"></a>
+        <a href="https://www.facebook.com/MelisaKrigerisAcademia" target="_blank" rel="noopener noreferrer"><img src="../assets/icons/facebook.png" alt="" width="50px"></a>
+        <a href="https://wa.link/satmes" target="_blank" rel="noopener noreferrer"><img src="../assets/icons/whatsapp.png" alt="" width="50px"></a>
+    </div>
+
+    <div class="desarrollo">
+        <p>Site web developed by @Sebastian Krigeris</p>
+    </div>
+
+</footer>
+
 
 
 
@@ -516,8 +544,8 @@
     AOS.init();
 </script>
 
-<script src="../javascript/curses.js"></script>
 <script src="../javascript/modal.js"></script>
+<script src="../javascript/nav.js"></script>
 
 </body>
 </html>

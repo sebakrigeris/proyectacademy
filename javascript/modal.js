@@ -6,6 +6,7 @@ spans.forEach((span) => {
     const modalId = span.dataset.modal;
     const modal = document.getElementById(modalId);
     modal.showModal();
+    modal.scrollTop = 0;
     });
 });
 
@@ -15,20 +16,3 @@ modals.forEach((modal) => {
     modal.close();
     });
 });
-
-
-
-
-
-// const btnAbrirModal = document.querySelector("#btn-abrir-modal");
-// const btnCerrarModal = document.querySelector("#btn-cerrar-modal");
-// const modal = document.querySelector("#modal");
-
-// btnAbrirModal.addEventListener("click", ()=> {
-//     modal.showModal();
-// });
-
-
-// btnCerrarModal.addEventListener("click", () => {
-//     modal.close();
-// });
