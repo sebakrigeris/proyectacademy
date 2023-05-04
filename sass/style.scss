@@ -337,9 +337,6 @@
         }
 }
 
-    
-
-
 
 
 // PÁGINA CURSOS
@@ -584,8 +581,6 @@
 
 
 
-
-
 // PAG CONTACTO 
 
 
@@ -595,7 +590,7 @@
     padding: 0rem;
 }
 .nav-contacto {
-    width: 25%;
+    width: 35%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.432);
     border-bottom-left-radius: 2rem;
@@ -668,9 +663,6 @@
 
 
 
-
-
-
 // FOOTER
 
 footer {
@@ -714,6 +706,9 @@ footer {
             text-align: center;
             width: 40%;
             border-bottom: 1px solid white;
+            padding-bottom: 0.1rem;
+            font-size: 17px;
+            font-family: "Font Nav";
         }
     }
 }
@@ -721,7 +716,3232 @@ footer {
 
 
 
-// MEDIA QUERYS - 
+
+// MEDIA QUERYS - 1773px
+
+@media screen and (max-width: 1773px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 1600px
+
+    .background-header {
+        min-height: 50%;
+    }
+
+        nav {
+            padding: 0;
+        }
+
+        .titulo-logo {
+            margin-top: -0.5rem;
+            
+            h2 {
+                font-size: 7rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                font-size: 3rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -6rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -20rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1773PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 5.5rem;
+            padding-top: 2rem;
+        }
+        .logo {
+            width: 100px;
+        }
+        .container-seccion1 {
+            padding: 0rem;
+        }
+
+        .seccion1-cartel {
+            width: 40%;
+            
+            max-height: 350px;
+            margin-top: 2rem;
+            margin: auto;
+
+            h4 {
+                text-align: center;
+                font-size: 1.6rem;
+                padding: 1.5rem 1rem 0rem 1rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1.3rem;
+                margin-top: 4rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 0rem;
+            margin-left: 0rem;
+            margin-top: 5rem;
+
+            .img1-seccion1 {
+                width: 450px;
+                margin-top: -2rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 380px;
+                height: 560px;
+                top: 1.8rem;
+                right: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 1773PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 5.5rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 4.7rem;
+            }
+            img{
+                width: 475px;
+                height: 780px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1773PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 5rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+
+        .fondo-curso {
+            
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 30px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 170px;
+                    
+                    font-size: 16px;
+                }
+
+                button.learn-more .circle {
+                    width: 2.3rem;
+                    height: 2.3rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 1773PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 320px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.6rem;
+                }
+            
+                h4 {
+                    font-size: 1.5rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                        li {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                        font-size: 2rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                                font-size: 1.2rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 1773px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0rem;
+        }
+    
+        .nav-contacto {
+            width: 60%;
+            height: 50px;
+            
+        }
+        .ul-contacto {
+            margin-top: 0.5rem;
+        }
+
+    .container-contacto {
+        width: 470px;
+        height: 470px;
+        margin-top: 10rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 380px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 22px;
+                padding: 0.8rem 2.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }
+}
+
+
+// MEDIA QUERYS - 1600px
+
+@media screen and (max-width: 1600px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 1600px
+
+    .background-header {
+        min-height: 50%;
+    }
+
+        nav {
+            padding: 0;
+        }
+
+        .titulo-logo {
+            margin-top: -0.5rem;
+            
+            h2 {
+                font-size: 7rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                font-size: 3rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -6rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -20rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1600PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 5.11rem;
+            padding-top: 2rem;
+        }
+        .logo {
+            width: 100px;
+        }
+        .container-seccion1 {
+            padding: 0rem;
+        }
+
+        .seccion1-cartel {
+            width: 40%;
+            
+            max-height: 350px;
+            margin-top: 2rem;
+            margin: auto;
+
+            h4 {
+                text-align: center;
+                font-size: 1.6rem;
+                padding: 1.5rem 1rem 0rem 1rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1.3rem;
+                margin-top: 4rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 0rem;
+            margin-left: 0rem;
+            margin-top: 5rem;
+
+            .img1-seccion1 {
+                width: 450px;
+                margin-top: -2rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 380px;
+                height: 560px;
+                top: 1.8rem;
+                right: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 1600PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 5.11rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 4.7rem;
+            }
+            img{
+                width: 450px;
+                height: 730px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1600PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 3.2rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+
+        .fondo-curso {
+            width: 650px;
+            img {
+                width: 330px;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 25px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 1600PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 320px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.6rem;
+                }
+            
+                h4 {
+                    font-size: 1.5rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                        li {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                        font-size: 2rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                                font-size: 1.2rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 1600px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0rem;
+        }
+    
+        .nav-contacto {
+            width: 60%;
+            height: 50px;
+            
+        }
+        .ul-contacto {
+            margin-top: 0.5rem;
+        }
+
+    .container-contacto {
+        width: 470px;
+        height: 470px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 380px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 22px;
+                padding: 0.8rem 2.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }
+}
+
+
+// MEDIA QUERYS - 1500px
+
+@media screen and (max-width: 1500px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 1500px
+
+    .background-header {
+        min-height: 50%;
+    }
+
+        nav {
+            padding: 0;
+        }
+
+        .titulo-logo {
+            margin-top: -0.5rem;
+            
+            h2 {
+                font-size: 7rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                font-size: 3rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -6rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -20rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1500PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 4.8em;
+            padding-top: 2rem;
+        }
+        .logo {
+            width: 100px;
+        }
+        .container-seccion1 {
+            padding: 0rem;
+        }
+
+        .seccion1-cartel {
+            width: 40%;
+            
+            max-height: 350px;
+            margin-top: 2rem;
+            margin: auto;
+
+            h4 {
+                text-align: center;
+                font-size: 1.6rem;
+                padding: 1.5rem 1rem 0rem 1rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1.3rem;
+                margin-top: 4rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 0rem;
+            margin-left: 0rem;
+            margin-top: 5rem;
+
+            .img1-seccion1 {
+                width: 430px;
+                margin-top: 0rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 330px;
+                height: 480px;
+                top: 5.2rem;
+                right: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 1500PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 4.8rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 3.7rem;
+            }
+            img{
+                width: 410px;
+                height: 650px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1500PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 3.2rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+
+        .fondo-curso {
+            width: 650px;
+            img {
+                width: 330px;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 25px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 1500PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 320px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.6rem;
+                }
+            
+                h4 {
+                    font-size: 1.5rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                        li {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                        font-size: 2rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                                font-size: 1.2rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 1500px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0rem;
+        }
+    
+        .nav-contacto {
+            width: 60%;
+            height: 50px;
+            
+        }
+        .ul-contacto {
+            margin-top: 0.5rem;
+        }
+
+    .container-contacto {
+        width: 470px;
+        height: 470px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 380px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 22px;
+                padding: 0.8rem 2.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }
+} 
+
+
+// MEDIA QUERYS - 1400px
+
+@media screen and (max-width: 1400px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 1400px
+
+    .background-header {
+        min-height: 50%;
+    }
+
+        nav {
+            padding: 0;
+        }
+
+        .titulo-logo {
+            margin-top: -0.5rem;
+            
+            h2 {
+                font-size: 7rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                font-size: 3rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -2rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -12rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1400PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 4.2em;
+            padding-top: 1.5rem;
+        }
+        .logo {
+            width: 100px;
+        }
+        .container-seccion1 {
+            padding: 0rem;
+        }
+
+        .seccion1-cartel {
+            width: 40%;
+            
+            max-height: 350px;
+            margin-top: 2rem;
+            margin: auto;
+
+            h4 {
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1.5rem 1rem 0rem 1rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1.3rem;
+                margin-top: 3rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 0rem;
+            margin-left: 0rem;
+            margin-top: 5rem;
+
+            .img1-seccion1 {
+                width: 390px;
+                margin-top: -2rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 300px;
+                height: 450px;
+                top: 1.5rem;
+                right: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 1400PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 4.2rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 3.7rem;
+            }
+            img{
+                width: 365px;
+                height: 600px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1400PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 3.2rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+
+        .fondo-curso {
+            width: 590px;
+            img {
+                width: 280px;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 25px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 1400PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 280px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.2rem;
+                }
+            
+                h4 {
+                    font-size: 1.25rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 1400px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0rem;
+        }
+    
+        .nav-contacto {
+            width: 60%;
+            height: 50px;
+            
+        }
+        .ul-contacto {
+            margin-top: 0.5rem;
+        }
+
+    .container-contacto {
+        width: 470px;
+        height: 470px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 380px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 22px;
+                padding: 0.8rem 2.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }
+} 
+
+
+// MEDIA QUERYS - 1250px
+
+@media screen and (max-width: 1250px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 1250px
+
+    .background-header {
+        min-height: 50%;
+    }
+
+        nav {
+            padding: 0;
+        }
+
+        .titulo-logo {
+            margin-top: -0.5rem;
+            
+            h2 {
+                font-size: 7rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                font-size: 3rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -2rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -9rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1250PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 5.3rem;
+            padding: 1.5rem 12rem 0rem 12rem;
+        }
+        .logo {
+            width: 105px;
+        }
+
+        .container-seccion1 {
+            display: block;
+        }
+        .seccion1-cartel {
+            width: 90%;
+            max-height: 280px;
+            margin-top: 2rem;
+
+            h4 {
+                text-align: center;
+                font-size: 1.7rem;
+                padding: 1.5rem 1rem 0rem 1rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1.3rem;
+                margin-top: 3rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 2rem;
+            margin-left: 4rem;
+            margin-top: 5rem;
+
+            .img1-seccion1 {
+                width: 400px;
+                margin-top: -1rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 330px;
+                height: 480px;
+                top: 3rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 1250PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 5rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 3.7rem;
+            }
+            img{
+                width: 345px;
+                height: 600px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1250PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 3.2rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+
+        .fondo-curso {
+            width: 550px;
+            img {
+                width: 250px;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 25px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 1250PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 280px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.2rem;
+                }
+            
+                h4 {
+                    font-size: 1.25rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 1250px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0rem;
+        }
+    
+        .nav-contacto {
+            width: 60%;
+            height: 50px;
+            
+        }
+        .ul-contacto {
+            margin-top: 0.5rem;
+        }
+
+    .container-contacto {
+        width: 450px;
+        height: 470px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 350px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }    
+
+}
+
+
+// MEDIA QUERYS - 1150px
+
+@media screen and (max-width: 1150px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 1150px
+
+    .background-header {
+        min-height: 50%;
+    }
+
+        nav {
+            padding: 0;
+        }
+
+        .titulo-logo {
+            margin-top: -0.5rem;
+            
+            h2 {
+                font-size: 7rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                font-size: 3rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -2rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -7rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1150PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 5rem;
+            padding: 1.5rem 8rem 0rem 8rem;
+        }
+        .logo {
+            width: 105px;
+        }
+
+        .container-seccion1 {
+            display: block;
+        }
+        .seccion1-cartel {
+            width: 90%;
+            max-height: 280px;
+            margin-top: 2rem;
+
+            h4 {
+                text-align: center;
+                font-size: 1.8rem;
+                padding: 1.5rem 0.8rem 0rem 0.8rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1.3rem;
+                margin-top: 1rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 2rem;
+            margin-left: 4rem;
+            margin-top: 5rem;
+
+            .img1-seccion1 {
+                width: 400px;
+                margin-top: -1rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 330px;
+                height: 480px;
+                top: 3rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 1150PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 4.8rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 3.7rem;
+            }
+            img{
+                width: 300px;
+                height: 530px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1150PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 3.2rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(1, auto);
+
+        .fondo-curso {
+            width: 700px;
+            img {
+                width: 350px;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 30px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 1150PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 280px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.2rem;
+                }
+            
+                h4 {
+                    font-size: 1.25rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 1150px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0rem;
+        }
+    
+        .nav-contacto {
+            width: 60%;
+            height: 50px;
+            
+        }
+        .ul-contacto {
+            margin-top: 0.5rem;
+        }
+
+    .container-contacto {
+        width: 450px;
+        height: 470px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 350px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }    
+
+}
+
+
+// MEDIA QUERYS - 982px
+
+@media screen and (max-width: 982px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 982px
+
+    .background-header {
+        min-height: 50%;
+    }
+
+        .cerrar-nav, 
+        .abrir-nav {
+            display: block;
+        }
+        .nav-abrir {
+            width: 50px;
+        }
+
+        nav {
+            opacity: 0;
+            visibility: hidden;
+
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: end;
+            gap: 2rem;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgb(46, 4, 72);
+            padding: 2rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            z-index: 1;
+            transition: 0.3s;   
+            
+            ul {
+                flex-direction: column;
+                align-items: end;
+                gap: 1.5rem;
+            }
+        }
+        .nav.visible {
+            opacity: 1;
+            visibility: visible;
+        } 
+
+        .titulo-logo {
+            margin-top: -2rem;
+            
+            h2 {
+                font-size: 6.7rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                font-size: 3rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -2rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -6rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 982PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 5rem;
+            padding: 1rem;
+
+        }
+        .logo {
+            width: 75px;
+        }
+
+        .container-seccion1 {
+            display: block;
+        }
+        .seccion1-cartel {
+            width: 90%;
+            max-height: 280px;
+            margin-top: 2rem;
+
+            h4 {
+                text-align: center;
+                font-size: 1.6rem;
+                padding: 1.5rem 0.8rem 0rem 0.8rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1.3rem;
+                margin-top: 1.3rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 2rem;
+            margin-left: 4rem;
+            margin-top: 5rem;
+
+            .img1-seccion1 {
+                width: 370px;
+                margin-top: -1rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 310px;
+                height: 460px;
+                top: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 982PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 5rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 3.7rem;
+            }
+            img{
+                width: 265px;
+                height: 470px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 982PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 2.4rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(1, auto);
+
+        .fondo-curso {
+            width: 650px;
+            img {
+                width: 300px;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 21px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 982PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 280px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.2rem;
+                }
+            
+                h4 {
+                    font-size: 1.25rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 982px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0.5rem;
+        }
+    
+        .nav-contacto {
+            width: 100%;
+        }
+
+    .container-contacto {
+        width: 450px;
+        height: 470px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 350px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }    
+
+}
+
+
+// MEDIA QUERYS - 824px
+
+@media screen and (max-width: 824px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 824px
+
+    .background-header {
+        min-height: 34%;
+    }
+
+        .cerrar-nav, 
+        .abrir-nav {
+            display: block;
+        }
+        .nav-abrir {
+            width: 50px;
+        }
+
+        nav {
+            opacity: 0;
+            visibility: hidden;
+
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: end;
+            gap: 2rem;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgb(46, 4, 72);
+            padding: 2rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            z-index: 1;
+            transition: 0.3s;   
+            
+            ul {
+                flex-direction: column;
+                align-items: end;
+                gap: 1.5rem;
+            }
+        }
+        .nav.visible {
+            opacity: 1;
+            visibility: visible;
+        } 
+
+        .titulo-logo {
+            margin-top: -2rem;
+            
+            h2 {
+                font-size: 5.8rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                margin-top: -0.5rem;
+                font-size: 2.4rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -0.85rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -2.95rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+    
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 824PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 4.19rem;
+            padding-top: 1rem;
+        }
+        .logo {
+            width: 75px;
+        }
+
+        .container-seccion1 {
+            display: block;
+        }
+        .seccion1-cartel {
+            width: 80%;
+            max-height: 280px;
+            margin-top: 2rem;
+
+            h4 {
+                text-align: center;
+                font-size: 1.45rem;
+                padding: 1.5rem 0.5rem 0rem 0.5rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1.3rem;
+                margin-top: 1.3rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 2rem;
+            margin-left: 4rem;
+            margin-top: 5rem;
+
+            .img1-seccion1 {
+                width: 320px;
+                margin-top: -1rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 270px;
+                height: 400px;
+                top: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 824PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 4.19rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 3.7rem;
+            }
+            img{
+                width: 235px;
+                height: 410px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.2rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 824PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 2.4rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(1, auto);
+
+        .fondo-curso {
+            width: 650px;
+            img {
+                width: 300px;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 21px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 824PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 280px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.2rem;
+                }
+            
+                h4 {
+                    font-size: 1.25rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 824px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0.5rem;
+        }
+    
+        .nav-contacto {
+            width: 100%;
+        }
+
+    .container-contacto {
+        width: 450px;
+        height: 470px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 350px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }    
+
+}
+
+
+// MEDIA QUERYS - 708px
+
+@media screen and (max-width: 708px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 708px
+
+    .background-header {
+        min-height: 34%;
+    }
+
+        .cerrar-nav, 
+        .abrir-nav {
+            display: block;
+        }
+        .nav-abrir {
+            width: 40px;
+        }
+
+        nav {
+            opacity: 0;
+            visibility: hidden;
+
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: end;
+            gap: 2rem;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgb(46, 4, 72);
+            padding: 2rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            z-index: 1;
+            transition: 0.3s;   
+            
+            ul {
+                flex-direction: column;
+                align-items: end;
+                gap: 1.5rem;
+            }
+        }
+        .nav.visible {
+            opacity: 1;
+            visibility: visible;
+        } 
+
+        .titulo-logo {
+            margin-top: -2rem;
+            
+            h2 {
+                font-size: 4.7rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                margin-top: -0.5rem;
+                font-size: 2rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -0.85rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -2.95rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+    
+            .cssbuttons-io-button {
+                font-size: 1.5rem;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 708PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 3.6rem;
+            padding-top: 1rem;
+        }
+        .logo {
+            width: 75px;
+        }
+
+        .container-seccion1 {
+            display: block;
+        }
+        .seccion1-cartel {
+            width: 80%;
+            max-height: 255px;
+            margin-top: 1.9rem;
+
+            h4 {
+                text-align: center;
+                font-size: 1.31rem;
+                padding: 1rem 0.5rem 0rem 0.5rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1rem;
+                margin-top: 1.3rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 2rem;
+            margin-left: 4rem;
+            margin-top: 3rem;
+
+            .img1-seccion1 {
+                width: 290px;
+                
+                margin-top: -1rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 240px;
+                height: 320px;
+                top: 5rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 708PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 3.6rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 3.7rem;
+            }
+            img{
+                width: 207px;
+                height: 390px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3.2rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 708PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 2.4rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(1, auto);
+        align-content: center;
+        margin: auto;
+        margin-bottom: 2.5rem;
+
+        .fondo-curso {
+            width: 350px;
+            flex-direction: column;
+            margin: auto;
+            img {
+                width: 350px;
+                margin: auto;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 21px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 708PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 280px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.2rem;
+                }
+            
+                h4 {
+                    font-size: 1.25rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 708px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0.5rem;
+        }
+    
+        .nav-contacto {
+            width: 100%;
+        }
+
+    .container-contacto {
+        width: 450px;
+        height: 470px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 350px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }    
+
+}
+
+
+// MEDIA QUERYS - 590px
+
+@media screen and (max-width: 590px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    // NAV BURGER - 590px
+
+    .background-header {
+        min-height: 34%;
+    }
+
+        .cerrar-nav, 
+        .abrir-nav {
+            display: block;
+        }
+        .nav-abrir {
+            width: 40px;
+        }
+
+        nav {
+            opacity: 0;
+            visibility: hidden;
+
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: end;
+            gap: 2rem;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgb(46, 4, 72);
+            padding: 2rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            z-index: 1;
+            transition: 0.3s;   
+            
+            ul {
+                flex-direction: column;
+                align-items: end;
+                gap: 1.5rem;
+            }
+        }
+        .nav.visible {
+            opacity: 1;
+            visibility: visible;
+        } 
+
+        .titulo-logo {
+            margin-top: -2rem;
+            
+            h2 {
+                font-size: 3.9rem;
+                font-family: "Font Tittle";
+            }           
+            h3 {
+                margin-top: -0.5rem;
+                font-size: 1.7rem;
+            }
+        }
+
+        .portada-img {
+            gap: 3rem;
+            align-items: end;
+            .img1-portada {
+                margin-top: -0.85rem;
+                width: 45%;
+            }
+            .img2-portada {
+                margin-top: -2.95rem;
+                width: 40%;
+            }
+        }
+
+        // BTN CURSO 
+
+        .btn-cursos {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+    
+            .cssbuttons-io-button {
+                font-size: 1.4rem;
+                padding-left: 0.55rem;
+                padding-right: 2.8em;
+                }
+        }
+    
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 590PX
+
+    .seccion-1 {
+        
+        h2 {
+            font-size: 3rem;
+            padding-top: 1rem;
+        }
+        .logo {
+            width: 75px;
+        }
+
+        .container-seccion1 {
+            display: block;
+        }
+        .seccion1-cartel {
+            width: 80%;
+            max-height: 255px;
+            margin-top: 1.9rem;
+
+            h4 {
+                text-align: center;
+                font-size: 1.234rem;
+                padding: 1rem 0.5rem 0rem 0.5rem;                
+            }
+            .cssbuttons-io-button {
+                font-size: 1rem;
+                margin-top: 1.3rem;
+            }
+        }
+        
+        .seccion1-img {
+            justify-content: center;
+            margin-right: 2rem;
+            margin-left: 4rem;
+            margin-top: 3rem;
+
+            .img1-seccion1 {
+                width: 260px;
+                
+                margin-top: -1rem;
+                margin-bottom: 5rem;
+            }
+            .img2-seccion1 {
+                width: 200px;
+                height: 310px;
+                top: 6rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SWIPER JS - 590PX
+
+    .seccion-2 {
+        min-height: 20%;
+        h2 {
+            font-size: 3rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .swiper {
+            padding-bottom: 3rem;
+
+            .swiper-wrapper {
+                gap: 3.7rem;
+            }
+            img{
+                width: 180px;
+                height: 350px;
+            }
+        }
+    }
+
+    // FOOTER 
+
+    footer {
+        .back-footer {
+            
+            h2 {
+                font-size: 3rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 590PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 2.4rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(1, auto);
+        align-content: center;
+        margin: auto;
+        margin-bottom: 2.5rem;
+
+        .fondo-curso {
+            width: 350px;
+            flex-direction: column;
+            margin: auto;
+            img {
+                width: 350px;
+                margin: auto;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 21px;
+                    
+                }
+
+                .button {
+                    display: flex;
+                    
+                }
+
+                button.learn-more {
+                    width: 140px;
+                    
+                    font-size: 13px;
+                }
+
+                button.learn-more .circle {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                button.learn-more .circle .icon.arrow::before {
+                    right: 0.5rem;
+                }
+                button.learn-more .button-text {
+                    
+                    padding: 0.45rem 0;
+                    margin: 0 0 0 2.7rem;
+                }
+                button:hover .circle {
+                    width: 90%;
+                }
+                span.button-text {
+                    width: 50%;
+                }
+            }
+
+            // MODAL - 590PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 250px;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2rem;
+                }
+            
+                h4 {
+                    font-size: 1.1rem;
+                }
+            
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        font-size: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                            }
+                    }
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+}
+
+
+    // PÁGINA CONTACTO - 590px
+
+    
+        video {
+            object-fit: cover;
+        }
+        .div-contacto {
+            padding: 0.5rem;
+        }
+    
+        .nav-contacto {
+            width: 100%;
+        }
+
+    .container-contacto {
+        width: 400px;
+        height: 450px;
+        margin-top: 6rem;
+    
+        h2 {
+            font-size: 2.9rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 350px;
+            
+            
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+                
+                img {
+                    width: 30px;
+                }
+            }
+            
+        }
+    }    
+
+}
+
+
+// MEDIA QUERYS - 500px
 
 @media screen and (max-width: 500px) {
 
@@ -823,6 +4043,7 @@ footer {
         
         h2 {
             font-size: 2.6rem;
+            padding-top: 1rem;
         }
         .logo {
             width: 60px;
@@ -1165,6 +4386,7 @@ footer {
         
         h2 {
             font-size: 2.2rem;
+            padding-top: 1rem;
         }
         .logo {
             width: 60px;
@@ -1508,6 +4730,7 @@ footer {
         
         h2 {
             font-size: 2rem;
+            padding: 1rem 0.5rem 0rem 0.5rem;
         }
         .logo {
             width: 60px;
@@ -1560,7 +4783,7 @@ footer {
     .seccion-2 {
         min-height: 20%;
         h2 {
-            font-size: 2.2rem;
+            font-size: 2rem;
             padding-top: 2rem;
             padding-bottom: 3rem;
         }
