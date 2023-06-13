@@ -24,12 +24,8 @@ body {
   overflow-x: hidden; }
 
 header {
-  background-color: #7A7BA8; }
-
-.div-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0.5rem; }
+  background-color: #7A7BA8;
+  height: 80px; }
 
 .nav-abrir {
   border: none;
@@ -64,7 +60,8 @@ nav {
       color: #cf91f9; }
 
 .portada {
-  background: linear-gradient(160deg, #7A7BA8 50%, #FFE6FF); }
+  background: linear-gradient(160deg, #7A7BA8 50%, #FFE6FF);
+  height: calc(100vh - 80px); }
   .portada .titulo-logo-boton {
     text-align: center;
     color: white; }
@@ -80,9 +77,9 @@ nav {
     justify-content: space-around;
     gap: 15rem; }
     .portada .portada-img .img1-portada {
-      margin-top: -4.88rem; }
+      margin-top: -3.88rem; }
     .portada .portada-img .img2-portada {
-      margin-top: -21.4rem; }
+      margin-top: -20.4rem; }
   .portada .btn-cursos {
     display: flex;
     justify-content: center;
@@ -2439,6 +2436,10 @@ footer .desarrollo {
   .cerrar-nav,
   .abrir-nav {
     display: block; }
+  .div-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem; }
   nav {
     opacity: 0;
     visibility: hidden;
@@ -2463,7 +2464,6 @@ footer .desarrollo {
     opacity: 1;
     visibility: visible; }
   .portada {
-    height: 93vh;
     display: flex;
     justify-content: center;
     align-items: flex-end; }
