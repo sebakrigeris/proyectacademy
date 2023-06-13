@@ -23,8 +23,8 @@
         box-sizing: border-box;
     }
 
-    body {
-        height: 100vh;
+    html {
+        height: -webkit-fill-available;
     }
 
 
@@ -82,7 +82,9 @@
 
         .portada {
             background: linear-gradient(160deg,  #7A7BA8 50%, #FFE6FF);
-            height: calc(100% - 80px);
+            height: calc(100vh - 80px);
+            height: -webkit-fill-available;
+
             
         .titulo-logo-boton {
             text-align: center;
@@ -4632,7 +4634,6 @@ footer {
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            height: calc(100% - 80px);
         
         .titulo-logo-boton {
             
