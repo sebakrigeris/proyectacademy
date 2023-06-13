@@ -2466,7 +2466,8 @@ footer .desarrollo {
   .portada {
     display: flex;
     justify-content: center;
-    align-items: flex-end; }
+    align-items: flex-end;
+    height: calc(95vh - 70px); }
     .portada .titulo-logo-boton h2 {
       font-size: 2.6rem;
       font-family: "Font Tittle"; }
