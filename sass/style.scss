@@ -1,7 +1,7 @@
     @font-face {
         font-family: "Font Nav";
         src: url("../assets/fonts/Manrope-Regular.ttf"); }
-    
+
     @font-face {
         font-family: "Font Tittle";
         src: url("../assets/fonts/Pride.otf"); }
@@ -9,7 +9,7 @@
     @font-face {
         font-family: "Font MK" ;
         src: url("../assets/fonts/waltograph42.otf");
-    }   
+    }
     @font-face {
         font-family: "font-cursos";
         src: url("../assets/fonts/MADE\ Outer\ Sans\ Light\ PERSONAL\ USE.otf");
@@ -20,22 +20,18 @@
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box; 
+        box-sizing: border-box;
     }
-    
+
     body{
         overflow-x: hidden;
     }
 
 
+    // SECCION NAVBAR - INDEX
 
-    // SECCION NAVBAR - INDEX 
-
-    .background-header {
-        width: 100%;
-        min-height: 100vh;
-        background: url("../assets/background/backgroundProd.jpg");
-        background-size: cover;
+    header {
+        background-color: #7A7BA8;
     }
 
         .div-nav {
@@ -79,22 +75,25 @@
                 }
                 a:hover {
                     color: rgb(207, 145, 249);
-                    
+
                 }
             }
-            
+
 
         }
 
-        .titulo-logo {
+
+        .portada {
+            background: linear-gradient(160deg,  #7A7BA8 50%, #FFE6FF);
+
+        .titulo-logo-boton {
             text-align: center;
             color: white;
-            margin-top: 2rem;
-            
+
             h2 {
                 font-size: 7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 font-family: "Font Nav";
                 font-size: 3rem;
@@ -107,23 +106,25 @@
             justify-content: space-around;
             gap: 15rem;
             .img1-portada {
-                margin-top: -5.88rem;
+                margin-top: -4.88rem;
             }
             .img2-portada {
-                margin-top: -22.4rem;
+                margin-top: -21.4rem;
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
 
             display: flex;
             justify-content: center;
             margin-top: 2rem;
-    
+            text-decoration: none;
+
             .cssbuttons-io-button {
-                background: #A370F0;
+                background:  #D88CD2;
+
                 color: white;
                 font-family: 'Questrial', sans-serif;
                 padding: 0.35em;
@@ -140,7 +141,7 @@
                 height: 2.8em;
                 padding-right: 3.3em;
                 }
-            
+
                 a {
                     color: white;
                     text-decoration: none;
@@ -159,183 +160,193 @@
                 right: 0.3em;
                 transition: all 0.3s;
                 }
-            
+
                 .cssbuttons-io-button:hover .icon {
                 width: calc(100% - 0.6em);
                 }
-            
+
                 .cssbuttons-io-button .icon svg {
                 width: 1.1em;
                 transition: transform 0.3s;
                 color: #7b52b9;
                 }
-            
+
                 .cssbuttons-io-button:hover .icon svg {
                 transform: translateX(0.1em);
                 }
-            
+
                 .cssbuttons-io-button:active .icon {
                 transform: scale(0.95);
                 }
         }
-    
+    }
 
-    
+
+
     //SECCION 1 - INFO Y DESCRIPCIÓN
 
-    .seccion-1 {
-        width: 100%;
-        min-height: 100vh;
-        background: url("../assets/background/backp.jpg");
-        background-size: cover;
+        .seccion-1 {
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(-153deg,  #7A7BA8 50%, #FFE6FF);
 
-        h2 {
-            text-align: center;
-            font-family: "Font MK";
-            color: white;
-            font-size: 6rem;
-            padding-top: 1.5rem;
-        }
-
-        .container-seccion1 {
             display: flex;
-            justify-content: space-around;
-        }
-        .seccion1-cartel {
-            width: 650px;
-            height: 430px;
-            background-color: rgba(255, 255, 255, 0.867);
-            border-radius: 0.5rem;
-            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-            margin: auto;
+            position: relative;
 
-            h4 {
-                text-align: center;
-                padding: 2rem;
+            h3 {
+                position: absolute;
+                top: 12rem;
+                left: 7rem;
+                font-size: 4.9rem;
+                color: white;
                 font-family: 'Questrial', sans-serif;
-                font-size: 30px;
+                font-weight: 600;
+                z-index: 1;
             }
-
-            // BTN CURSOS - SECCION 1
-                .cssbuttons-io-button {
-                    background: #A370F0;
-                    color: white;
-                    font-family: 'Questrial', sans-serif;
-                    padding: 0.35em;
-                    padding-left: 1.2em;
-                    font-size: 25px;
-                    border-radius: 0.9em;
-                    border: none;
-                    letter-spacing: 0.05em;
-                    display: flex;
-                    align-items: center;
-                    box-shadow: inset 0 0 1.6em -0.6em #714da6;
-                    overflow: hidden;
+            
+            .img-seccion1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                img {
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                }
+                .img1-seccion1 {
                     position: relative;
-                    height: 2.8em;
-                    padding-right: 3.3em;
-                    margin: auto;
-                    }
-                    
-                    a {
-                        color: white;
-                        text-decoration: none;
-                    }
-                    .cssbuttons-io-button .icon {
-                    background: white;
-                    margin-left: 1em;
-                    position: absolute;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    height: 2.2em;
-                    width: 2.2em;
-                    border-radius: 0.7em;
-                    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
-                    right: 0.3em;
-                    transition: all 0.3s;
-                    }
-                
-                    .cssbuttons-io-button:hover .icon {
-                    width: calc(100% - 0.6em);
-                    }
-                
-                    .cssbuttons-io-button .icon svg {
-                    width: 1.1em;
-                    transition: transform 0.3s;
-                    color: #7b52b9;
-                    }
-                
-                    .cssbuttons-io-button:hover .icon svg {
-                    transform: translateX(0.1em);
-                    }
-                
-                    .cssbuttons-io-button:active .icon {
-                    transform: scale(0.95);
-                    }
-                
-            
-        }
+                    left: 3rem;
+                    width: 450px;
+                }
+                .img2-seccion1 {
+                    width: 570px;
+                }
 
-        .seccion1-img {
-            display: flex;
-            margin-right: 2rem;
-            
-            img {
-                box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-            }
-            .img1-seccion1 {
-                margin-top: -1rem;
-            }
-            .img2-seccion1 {
-                position: relative;
-                top: 3.5rem;
-                right: 2rem;
             }
         }
-    }
 
-
-
-    // SECCION 2 - SWIPER JS 
-
-    .seccion-2 {
-    width: 100%;
-    min-height: 100vh;
-    background: url("../assets/background/backgroundProd.jpg");
-    background-size: cover;
-    
-    h2 {
-        text-align: center;
-        padding-top: 2.5rem;
-        padding-bottom: 5rem;
-        color: white;
-        font-family: 'Font Tittle';
-        font-size: 90px;
-        margin-bottom: -1.8rem;    
-    }
-
-    .swiper {
-
-        .swiper-slide {
-            width: 100%;
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        img {        
+        
+        .info-index {
+            min-height: 255px;        
+            background-color: #8e8ebb;
             display: block;
-            width: 100%;
-            height: 730px;
-            object-fit: cover;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+    
+            p {
+                font-size: 1.6rem;
+                font-family: 'Questrial', sans-serif;
+                text-align: center;
+                color: white;
             }
+
+            button {
+                font-family: 'Questrial', sans-serif;
+                font-size: 1.7rem;
+                background: linear-gradient(to bottom, #acaeee 0%, #D88CD2 100%);
+                color: white;
+                padding: 0.2em 1.2em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                border-radius: 25px;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s;
+                margin: auto;
+            
+            
+            button:hover {
+                transform: translateY(-3px);
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+            }
+            
+            button:active {
+                transform: scale(0.95);
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            }
+            
+            button span {
+                display: block;
+                margin-left: 0.4em;
+                transition: all 0.3s;
+            }
+            
+            button svg {
+                width: 18px;
+                height: 18px;
+                fill: white;
+                transition: all 0.3s;
+            }
+            
+            button .svg-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: rgba(255, 255, 255, 0.2);
+                margin-right: 0.5em;
+                transition: all 0.3s;
+            }
+            
+            button:hover .svg-wrapper {
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+            
+            button:hover svg {
+                transform: rotate(45deg);
+            }   
+            }                         
+
         }
-}
+
+    
+    // SECCION 2 - GALERÍA
+
+        .seccion-2 {
+            width: 100%;
+            min-height: 100vh;
+            padding: 5rem;
+            background: linear-gradient(160deg,  #7A7BA8 50%, #FFE6FF);
+            
+            h2 {
+                font-size: 3rem;
+                text-align: start;
+                font-family: 'Questrial', sans-serif;
+                font-weight: 600;
+                
+                margin-left: 3.2rem;
+                color: white;
+            }
+
+            .galeria {
+                display: grid;
+                grid-template-columns: repeat(4, auto);
+                justify-content: center;
+                gap: 10px;
+                
+                .galeria-img {
+                    img {
+                        width: 100%;
+                        height: 600px;
+                        object-fit: cover;
+                    }
+                }
+                .galeria-img:nth-child(1){
+                    grid-column-start: span 3;
+                }
+                .galeria-img:nth-child(5){
+                    grid-column-end: span 2; 
+                }
+                .galeria-img:nth-child(10){
+                    grid-column-end: span 4; 
+                }
+                
+        }
+    }
+
 
 
 
@@ -343,15 +354,13 @@
 
 
 .body-curse {
-    width: 100%;
-    background: url("../assets/background/backgroundProd.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    background: linear-gradient(-125deg,  #7A7BA8 50%, #FFE6FF);
 }
 
 .texto-cursos {
-    font-family: "font-cursos";
-    font-size: 70px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
     color: white;
     border-bottom: 1px solid white;
     width: 80%;
@@ -372,7 +381,7 @@
         background-color: #00000094;
         width: 750px;
         display: flex;
-        
+
         .info {
             width: 100%;
             display: flex;
@@ -381,7 +390,7 @@
             align-items: center;
             margin-top: 1rem;
             margin-bottom: 1rem;
-            
+
             p {
                 font-family: "font-cursos";
                 font-size: 30px;
@@ -390,7 +399,7 @@
                 padding: 10px;
                 border-bottom: 1px solid white;
                 width: 80%;
-            
+
             }
 
             button {
@@ -406,14 +415,14 @@
                 font-size: inherit;
                 font-family: 'Questrial', sans-serif;
                 letter-spacing: 1px;
-                
+
             }
-            
+
             button.learn-more {
                 width: 11rem;
                 height: auto;
             }
-            
+
             button.learn-more .circle {
                 -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
                 transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -425,7 +434,7 @@
                 background: #fcfcfc;
                 border-radius: 1.625rem;
             }
-            
+
             button.learn-more .circle .icon {
                 -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
                 transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -435,7 +444,7 @@
                 margin: auto;
                 background: #000000;
             }
-            
+
             button.learn-more .circle .icon.arrow {
                 -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
                 transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -444,7 +453,7 @@
                 height: 0.125rem;
                 background: none;
             }
-            
+
             button.learn-more .circle .icon.arrow::before {
                 position: absolute;
                 content: "";
@@ -458,7 +467,7 @@
                     -ms-transform: rotate(45deg);
                         transform: rotate(45deg);
             }
-            
+
             button.learn-more .button-text {
                 -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
                 transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -475,25 +484,25 @@
                 text-align: center;
                 text-transform: uppercase;
             }
-            
+
             button:hover .circle {
                 width: 100%;
             }
-            
+
             button:hover .circle .icon.arrow {
                 background: #ffffff;
                 -webkit-transform: translate(1rem, 0);
                     -ms-transform: translate(1rem, 0);
                         transform: translate(1rem, 0);
             }
-            
+
             button:hover .button-text {
                 color: #000000;
             }
         }
-    
 
-        
+
+
         .modal-cont::backdrop {
             background-color: rgba(0, 0, 0, 0.55);
         }
@@ -511,14 +520,14 @@
             font-family: 'Questrial', sans-serif;
 
             img {
-                box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; 
-                }            
+                box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+                }
 
             h2 {
                 margin-bottom: 2rem;
                 font-size: 50px;
             }
-            
+
             p {
                 width: 100%;
                 color: black;
@@ -531,7 +540,7 @@
                 display: grid;
                 grid-template-columns: repeat(2, 550px);
                 justify-items: center;
-                                
+
                 margin-top: 3rem;
                 gap: 1.5rem;
 
@@ -567,21 +576,21 @@
                 background-color: white;
                 color: black;
             }
-            
+
             .btn-cerrar {
                 margin-top: 4rem;
 
-                
+
             }
         }
-        
+
     }
-    
+
 }
 
 
 
-// PAG CONTACTO 
+// PAG CONTACTO
 
 
 // nav contacto
@@ -589,14 +598,7 @@
 .div-contacto {
     padding: 0rem;
 }
-.nav-contacto {
-    width: 35%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.432);
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    
-}
+
 
 .back-c {
     position: fixed;
@@ -638,7 +640,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
 
         p {
             font-size: 20px;
@@ -655,10 +657,10 @@
             font-family: "Font Nav";
             border-radius: 2rem;
             box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;        }
-        
+
 
     }
-    
+
 }
 
 
@@ -670,7 +672,8 @@ footer {
     .back-footer {
         width: 100%;
         height: 150px;
-        background-color: rgb(117, 85, 149);
+        background: #8e8ebb;
+
 
         text-align: center;
         color: white;
@@ -681,13 +684,13 @@ footer {
         }
         p {
             font-size: 22px;
-            text-transform: uppercase; 
+            text-transform: uppercase;
         }
     }
 
     .redes-icon {
         width: 100%;
-        background-color: rgb(142, 103, 181);
+        background-color: #601B5E;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -697,11 +700,11 @@ footer {
 
     .desarrollo {
         width: 100%;
-        background-color: rgb(156, 119, 194);
+        background-color: #773174;
         display: flex;
         justify-content: center;
         padding: 1rem;
-        color: rgb(0, 0, 0);
+        color: white;
         p {
             text-align: center;
             width: 40%;
@@ -741,11 +744,11 @@ footer {
 
         .titulo-logo {
             margin-top: -0.5rem;
-            
+
             h2 {
                 font-size: 7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 font-size: 3rem;
             }
@@ -764,21 +767,21 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
-            
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 1773PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 5.5rem;
             padding-top: 2rem;
@@ -792,7 +795,7 @@ footer {
 
         .seccion1-cartel {
             width: 40%;
-            
+
             max-height: 350px;
             margin-top: 2rem;
             margin: auto;
@@ -800,14 +803,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.6rem;
-                padding: 1.5rem 1rem 0rem 1rem;                
+                padding: 1.5rem 1rem 0rem 1rem;
             }
             .cssbuttons-io-button {
                 font-size: 1.3rem;
                 margin-top: 4rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 0rem;
@@ -852,11 +855,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.5rem;
             }
@@ -883,22 +886,22 @@ footer {
         gap: 1rem;
 
         .fondo-curso {
-            
+
             .info {
                 p {
                     width: 100%;
                     font-size: 30px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 170px;
-                    
+
                     font-size: 16px;
                 }
 
@@ -910,7 +913,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -934,11 +937,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.6rem;
                 }
-            
+
                 h4 {
                     font-size: 1.5rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -958,7 +961,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                                 font-size: 1.2rem;
@@ -970,25 +973,20 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 1773px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0rem;
         }
-    
-        .nav-contacto {
-            width: 60%;
-            height: 50px;
-            
-        }
+
         .ul-contacto {
             margin-top: 0.5rem;
         }
@@ -997,7 +995,7 @@ footer {
         width: 470px;
         height: 470px;
         margin-top: 10rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -1007,8 +1005,8 @@ footer {
 
         .contacto-wsp {
             width: 380px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -1017,12 +1015,12 @@ footer {
                 font-size: 22px;
                 padding: 0.8rem 2.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
     }
 }
@@ -1052,11 +1050,11 @@ footer {
 
         .titulo-logo {
             margin-top: -0.5rem;
-            
+
             h2 {
                 font-size: 7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 font-size: 3rem;
             }
@@ -1075,21 +1073,21 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
-            
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 1600PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 5.11rem;
             padding-top: 2rem;
@@ -1103,7 +1101,7 @@ footer {
 
         .seccion1-cartel {
             width: 40%;
-            
+
             max-height: 350px;
             margin-top: 2rem;
             margin: auto;
@@ -1111,14 +1109,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.6rem;
-                padding: 1.5rem 1rem 0rem 1rem;                
+                padding: 1.5rem 1rem 0rem 1rem;
             }
             .cssbuttons-io-button {
                 font-size: 1.3rem;
                 margin-top: 4rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 0rem;
@@ -1163,11 +1161,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.5rem;
             }
@@ -1202,17 +1200,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 25px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -1224,7 +1222,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -1248,11 +1246,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.6rem;
                 }
-            
+
                 h4 {
                     font-size: 1.5rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -1272,7 +1270,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                                 font-size: 1.2rem;
@@ -1284,25 +1282,20 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 1600px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0rem;
         }
-    
-        .nav-contacto {
-            width: 60%;
-            height: 50px;
-            
-        }
+
         .ul-contacto {
             margin-top: 0.5rem;
         }
@@ -1311,7 +1304,7 @@ footer {
         width: 470px;
         height: 470px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -1321,8 +1314,8 @@ footer {
 
         .contacto-wsp {
             width: 380px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -1331,12 +1324,12 @@ footer {
                 font-size: 22px;
                 padding: 0.8rem 2.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
     }
 }
@@ -1366,11 +1359,11 @@ footer {
 
         .titulo-logo {
             margin-top: -0.5rem;
-            
+
             h2 {
                 font-size: 7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 font-size: 3rem;
             }
@@ -1389,21 +1382,21 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
-            
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 1500PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 4.8em;
             padding-top: 2rem;
@@ -1417,7 +1410,7 @@ footer {
 
         .seccion1-cartel {
             width: 40%;
-            
+
             max-height: 350px;
             margin-top: 2rem;
             margin: auto;
@@ -1425,14 +1418,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.6rem;
-                padding: 1.5rem 1rem 0rem 1rem;                
+                padding: 1.5rem 1rem 0rem 1rem;
             }
             .cssbuttons-io-button {
                 font-size: 1.3rem;
                 margin-top: 4rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 0rem;
@@ -1477,11 +1470,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.5rem;
             }
@@ -1516,17 +1509,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 25px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -1538,7 +1531,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -1562,11 +1555,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.6rem;
                 }
-            
+
                 h4 {
                     font-size: 1.5rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -1586,7 +1579,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                                 font-size: 1.2rem;
@@ -1598,25 +1591,20 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 1500px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0rem;
         }
-    
-        .nav-contacto {
-            width: 60%;
-            height: 50px;
-            
-        }
+
         .ul-contacto {
             margin-top: 0.5rem;
         }
@@ -1625,7 +1613,7 @@ footer {
         width: 470px;
         height: 470px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -1635,8 +1623,8 @@ footer {
 
         .contacto-wsp {
             width: 380px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -1645,15 +1633,15 @@ footer {
                 font-size: 22px;
                 padding: 0.8rem 2.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
     }
-} 
+}
 
 
 // MEDIA QUERYS - 1400px
@@ -1680,11 +1668,11 @@ footer {
 
         .titulo-logo {
             margin-top: -0.5rem;
-            
+
             h2 {
                 font-size: 7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 font-size: 3rem;
             }
@@ -1703,21 +1691,21 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
-            
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 1400PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 4.2em;
             padding-top: 1.5rem;
@@ -1731,7 +1719,7 @@ footer {
 
         .seccion1-cartel {
             width: 40%;
-            
+
             max-height: 350px;
             margin-top: 2rem;
             margin: auto;
@@ -1739,14 +1727,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.5rem;
-                padding: 1.5rem 1rem 0rem 1rem;                
+                padding: 1.5rem 1rem 0rem 1rem;
             }
             .cssbuttons-io-button {
                 font-size: 1.3rem;
                 margin-top: 3rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 0rem;
@@ -1791,11 +1779,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.5rem;
             }
@@ -1830,17 +1818,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 25px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -1852,7 +1840,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -1876,11 +1864,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.25rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -1896,7 +1884,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -1907,25 +1895,20 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 1400px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0rem;
         }
-    
-        .nav-contacto {
-            width: 60%;
-            height: 50px;
-            
-        }
+
         .ul-contacto {
             margin-top: 0.5rem;
         }
@@ -1934,7 +1917,7 @@ footer {
         width: 470px;
         height: 470px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -1944,8 +1927,8 @@ footer {
 
         .contacto-wsp {
             width: 380px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -1954,15 +1937,15 @@ footer {
                 font-size: 22px;
                 padding: 0.8rem 2.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
     }
-} 
+}
 
 
 // MEDIA QUERYS - 1250px
@@ -1989,11 +1972,11 @@ footer {
 
         .titulo-logo {
             margin-top: -0.5rem;
-            
+
             h2 {
                 font-size: 7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 font-size: 3rem;
             }
@@ -2012,21 +1995,21 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
-            
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 1250PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 5.3rem;
             padding: 1.5rem 12rem 0rem 12rem;
@@ -2046,14 +2029,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.7rem;
-                padding: 1.5rem 1rem 0rem 1rem;                
+                padding: 1.5rem 1rem 0rem 1rem;
             }
             .cssbuttons-io-button {
                 font-size: 1.3rem;
                 margin-top: 3rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 2rem;
@@ -2097,11 +2080,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.5rem;
             }
@@ -2136,17 +2119,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 25px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -2158,7 +2141,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -2182,11 +2165,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.25rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -2202,7 +2185,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -2213,25 +2196,20 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 1250px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0rem;
         }
-    
-        .nav-contacto {
-            width: 60%;
-            height: 50px;
-            
-        }
+
         .ul-contacto {
             margin-top: 0.5rem;
         }
@@ -2240,7 +2218,7 @@ footer {
         width: 450px;
         height: 470px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -2250,8 +2228,8 @@ footer {
 
         .contacto-wsp {
             width: 350px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -2260,14 +2238,14 @@ footer {
                 font-size: 18px;
                 padding: 0.4rem 1.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
-    }    
+    }
 
 }
 
@@ -2296,11 +2274,11 @@ footer {
 
         .titulo-logo {
             margin-top: -0.5rem;
-            
+
             h2 {
                 font-size: 7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 font-size: 3rem;
             }
@@ -2319,21 +2297,21 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
-            
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 1150PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 5rem;
             padding: 1.5rem 8rem 0rem 8rem;
@@ -2353,14 +2331,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.8rem;
-                padding: 1.5rem 0.8rem 0rem 0.8rem;                
+                padding: 1.5rem 0.8rem 0rem 0.8rem;
             }
             .cssbuttons-io-button {
                 font-size: 1.3rem;
                 margin-top: 1rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 2rem;
@@ -2404,11 +2382,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.5rem;
             }
@@ -2442,17 +2420,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 30px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -2464,7 +2442,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -2488,11 +2466,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.25rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -2508,7 +2486,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -2519,25 +2497,20 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 1150px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0rem;
         }
-    
-        .nav-contacto {
-            width: 60%;
-            height: 50px;
-            
-        }
+
         .ul-contacto {
             margin-top: 0.5rem;
         }
@@ -2546,7 +2519,7 @@ footer {
         width: 450px;
         height: 470px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -2556,8 +2529,8 @@ footer {
 
         .contacto-wsp {
             width: 350px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -2566,14 +2539,14 @@ footer {
                 font-size: 18px;
                 padding: 0.4rem 1.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
-    }    
+    }
 
 }
 
@@ -2596,7 +2569,7 @@ footer {
         min-height: 50%;
     }
 
-        .cerrar-nav, 
+        .cerrar-nav,
         .abrir-nav {
             display: block;
         }
@@ -2618,11 +2591,11 @@ footer {
             right: 0;
             bottom: 0;
             background-color: rgb(46, 4, 72);
-            padding: 2rem;
-            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            padding: 1rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
             z-index: 1;
-            transition: 0.3s;   
-            
+            transition: 0.3s;
+
             ul {
                 flex-direction: column;
                 align-items: end;
@@ -2632,15 +2605,15 @@ footer {
         .nav.visible {
             opacity: 1;
             visibility: visible;
-        } 
+        }
 
         .titulo-logo {
             margin-top: -2rem;
-            
+
             h2 {
                 font-size: 6.7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 font-size: 3rem;
             }
@@ -2659,21 +2632,21 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
-            
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 982PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 5rem;
             padding: 1rem;
@@ -2694,14 +2667,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.6rem;
-                padding: 1.5rem 0.8rem 0rem 0.8rem;                
+                padding: 1.5rem 0.8rem 0rem 0.8rem;
             }
             .cssbuttons-io-button {
                 font-size: 1.3rem;
                 margin-top: 1.3rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 2rem;
@@ -2745,11 +2718,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.5rem;
             }
@@ -2783,17 +2756,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 21px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -2805,7 +2778,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -2829,11 +2802,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.25rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -2849,7 +2822,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -2860,29 +2833,25 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 982px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0.5rem;
         }
-    
-        .nav-contacto {
-            width: 100%;
-        }
 
     .container-contacto {
         width: 450px;
         height: 470px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -2892,8 +2861,8 @@ footer {
 
         .contacto-wsp {
             width: 350px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -2902,14 +2871,14 @@ footer {
                 font-size: 18px;
                 padding: 0.4rem 1.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
-    }    
+    }
 
 }
 
@@ -2932,7 +2901,7 @@ footer {
         min-height: 34%;
     }
 
-        .cerrar-nav, 
+        .cerrar-nav,
         .abrir-nav {
             display: block;
         }
@@ -2954,11 +2923,11 @@ footer {
             right: 0;
             bottom: 0;
             background-color: rgb(46, 4, 72);
-            padding: 2rem;
-            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            padding: 1rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
             z-index: 1;
-            transition: 0.3s;   
-            
+            transition: 0.3s;
+
             ul {
                 flex-direction: column;
                 align-items: end;
@@ -2968,15 +2937,15 @@ footer {
         .nav.visible {
             opacity: 1;
             visibility: visible;
-        } 
+        }
 
         .titulo-logo {
             margin-top: -2rem;
-            
+
             h2 {
                 font-size: 5.8rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 margin-top: -0.5rem;
                 font-size: 2.4rem;
@@ -2996,22 +2965,22 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
             margin-bottom: 0.5rem;
-    
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 824PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 4.19rem;
             padding-top: 1rem;
@@ -3031,14 +3000,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.45rem;
-                padding: 1.5rem 0.5rem 0rem 0.5rem;                
+                padding: 1.5rem 0.5rem 0rem 0.5rem;
             }
             .cssbuttons-io-button {
                 font-size: 1.3rem;
                 margin-top: 1.3rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 2rem;
@@ -3082,11 +3051,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.2rem;
             }
@@ -3120,17 +3089,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 21px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -3142,7 +3111,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -3166,11 +3135,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.25rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -3186,7 +3155,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -3197,29 +3166,25 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 824px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0.5rem;
         }
-    
-        .nav-contacto {
-            width: 100%;
-        }
 
     .container-contacto {
         width: 450px;
         height: 470px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -3229,8 +3194,8 @@ footer {
 
         .contacto-wsp {
             width: 350px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -3239,14 +3204,14 @@ footer {
                 font-size: 18px;
                 padding: 0.4rem 1.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
-    }    
+    }
 
 }
 
@@ -3269,7 +3234,7 @@ footer {
         min-height: 34%;
     }
 
-        .cerrar-nav, 
+        .cerrar-nav,
         .abrir-nav {
             display: block;
         }
@@ -3291,11 +3256,11 @@ footer {
             right: 0;
             bottom: 0;
             background-color: rgb(46, 4, 72);
-            padding: 2rem;
-            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            padding: 1rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
             z-index: 1;
-            transition: 0.3s;   
-            
+            transition: 0.3s;
+
             ul {
                 flex-direction: column;
                 align-items: end;
@@ -3305,15 +3270,15 @@ footer {
         .nav.visible {
             opacity: 1;
             visibility: visible;
-        } 
+        }
 
         .titulo-logo {
             margin-top: -2rem;
-            
+
             h2 {
                 font-size: 4.7rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 margin-top: -0.5rem;
                 font-size: 2rem;
@@ -3333,22 +3298,22 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
             margin-bottom: 0.5rem;
-    
+
             .cssbuttons-io-button {
                 font-size: 1.5rem;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 708PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 3.6rem;
             padding-top: 1rem;
@@ -3368,14 +3333,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.31rem;
-                padding: 1rem 0.5rem 0rem 0.5rem;                
+                padding: 1rem 0.5rem 0rem 0.5rem;
             }
             .cssbuttons-io-button {
                 font-size: 1rem;
                 margin-top: 1.3rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 2rem;
@@ -3384,7 +3349,7 @@ footer {
 
             .img1-seccion1 {
                 width: 290px;
-                
+
                 margin-top: -1rem;
                 margin-bottom: 5rem;
             }
@@ -3420,11 +3385,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3.2rem;
             }
@@ -3464,17 +3429,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 21px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -3486,7 +3451,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -3510,11 +3475,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2.2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.25rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -3530,7 +3495,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -3541,29 +3506,25 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 708px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0.5rem;
         }
-    
-        .nav-contacto {
-            width: 100%;
-        }
 
     .container-contacto {
         width: 450px;
         height: 470px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -3573,8 +3534,8 @@ footer {
 
         .contacto-wsp {
             width: 350px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -3583,14 +3544,14 @@ footer {
                 font-size: 18px;
                 padding: 0.4rem 1.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
-    }    
+    }
 
 }
 
@@ -3613,7 +3574,7 @@ footer {
         min-height: 34%;
     }
 
-        .cerrar-nav, 
+        .cerrar-nav,
         .abrir-nav {
             display: block;
         }
@@ -3635,11 +3596,11 @@ footer {
             right: 0;
             bottom: 0;
             background-color: rgb(46, 4, 72);
-            padding: 2rem;
-            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            padding: 1rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
             z-index: 1;
-            transition: 0.3s;   
-            
+            transition: 0.3s;
+
             ul {
                 flex-direction: column;
                 align-items: end;
@@ -3649,15 +3610,15 @@ footer {
         .nav.visible {
             opacity: 1;
             visibility: visible;
-        } 
+        }
 
         .titulo-logo {
             margin-top: -2rem;
-            
+
             h2 {
                 font-size: 3.9rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 margin-top: -0.5rem;
                 font-size: 1.7rem;
@@ -3677,24 +3638,24 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
             margin-bottom: 0.5rem;
-    
+
             .cssbuttons-io-button {
                 font-size: 1.4rem;
                 padding-left: 0.55rem;
                 padding-right: 2.8em;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 590PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 3rem;
             padding-top: 1rem;
@@ -3714,14 +3675,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.234rem;
-                padding: 1rem 0.5rem 0rem 0.5rem;                
+                padding: 1rem 0.5rem 0rem 0.5rem;
             }
             .cssbuttons-io-button {
                 font-size: 1rem;
                 margin-top: 1.3rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 2rem;
@@ -3730,7 +3691,7 @@ footer {
 
             .img1-seccion1 {
                 width: 260px;
-                
+
                 margin-top: -1rem;
                 margin-bottom: 5rem;
             }
@@ -3766,11 +3727,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 3rem;
             }
@@ -3810,17 +3771,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 21px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -3832,7 +3793,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -3856,11 +3817,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.1rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -3876,7 +3837,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -3887,29 +3848,25 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 590px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0.5rem;
         }
-    
-        .nav-contacto {
-            width: 100%;
-        }
 
     .container-contacto {
         width: 400px;
         height: 450px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.9rem;
         }
@@ -3919,8 +3876,8 @@ footer {
 
         .contacto-wsp {
             width: 350px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -3929,14 +3886,14 @@ footer {
                 font-size: 18px;
                 padding: 0.4rem 1.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
-    }    
+    }
 
 }
 
@@ -3959,7 +3916,7 @@ footer {
         min-height: 34%;
     }
 
-        .cerrar-nav, 
+        .cerrar-nav,
         .abrir-nav {
             display: block;
         }
@@ -3981,11 +3938,11 @@ footer {
             right: 0;
             bottom: 0;
             background-color: rgb(46, 4, 72);
-            padding: 2rem;
-            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            padding: 1rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
             z-index: 1;
-            transition: 0.3s;   
-            
+            transition: 0.3s;
+
             ul {
                 flex-direction: column;
                 align-items: end;
@@ -3995,15 +3952,15 @@ footer {
         .nav.visible {
             opacity: 1;
             visibility: visible;
-        } 
+        }
 
         .titulo-logo {
             margin-top: -2rem;
-            
+
             h2 {
                 font-size: 3.2rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
                 margin-top: -0.5rem;
                 font-size: 1.4rem;
@@ -4023,24 +3980,24 @@ footer {
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
             margin-top: 1rem;
             margin-bottom: 0.5rem;
-    
+
             .cssbuttons-io-button {
                 font-size: 1.1rem;
                 padding-left: 0.50rem;
                 padding-right: 2.8em;
                 }
         }
-    
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 500PX
 
     .seccion-1 {
-        
+
         h2 {
             font-size: 2.6rem;
             padding-top: 1rem;
@@ -4060,14 +4017,14 @@ footer {
             h4 {
                 text-align: center;
                 font-size: 1.2rem;
-                padding: 1rem 0.5rem 0rem 0.5rem;                
+                padding: 1rem 0.5rem 0rem 0.5rem;
             }
             .cssbuttons-io-button {
                 font-size: 1rem;
                 margin-top: 0.7rem;
             }
         }
-        
+
         .seccion1-img {
             justify-content: center;
             margin-right: 2rem;
@@ -4076,7 +4033,7 @@ footer {
 
             .img1-seccion1 {
                 width: 210px;
-                
+
                 margin-top: -1rem;
                 margin-bottom: 5rem;
             }
@@ -4112,11 +4069,11 @@ footer {
         }
     }
 
-    // FOOTER 
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 2.5rem;
             }
@@ -4156,17 +4113,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 21px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -4178,7 +4135,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -4202,11 +4159,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.1rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -4222,7 +4179,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -4233,29 +4190,25 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
     // PÁGINA CONTACTO - 500px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0.5rem;
         }
-    
-        .nav-contacto {
-            width: 100%;
-        }
 
     .container-contacto {
         width: 300px;
         height: 450px;
         margin-top: 6rem;
-    
+
         h2 {
             font-size: 2.3rem;
         }
@@ -4265,8 +4218,8 @@ footer {
 
         .contacto-wsp {
             width: 250px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -4275,365 +4228,355 @@ footer {
                 font-size: 18px;
                 padding: 0.4rem 1.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
-    }    
+    }
 
 }
 
 
-// MEDIA QUERYS - 432PX
+// // MEDIA QUERYS - 432PX
 
-@media screen and (max-width: 432px) {
+// @media screen and (max-width: 600px) {
 
-    // BOTÓN WSP
-    .float {
-        width: 50px;
-        height: 50px;
-        right: 20px;
-        font-size: 20px;
-    }
+//     // BOTÓN WSP
+//     .float {
+//         width: 50px;
+//         height: 50px;
+//         right: 20px;
+//         font-size: 20px;
+//     }
 
-    // NAV BURGER - 432px
-
-    .background-header {
-        min-height: 34%;
-    }
-
-        .cerrar-nav, 
-        .abrir-nav {
-            display: block;
-        }
-
-        nav {
-            opacity: 0;
-            visibility: hidden;
-
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: end;
-            gap: 2rem;
-
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgb(46, 4, 72);
-            padding: 2rem;
-            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
-            z-index: 1;
-            transition: 0.3s;   
-            
-            ul {
-                flex-direction: column;
-                align-items: end;
-                gap: 1.5rem;
-            }
-        }
-        .nav.visible {
-            opacity: 1;
-            visibility: visible;
-        } 
-
-        .titulo-logo {
-            margin-top: -2rem;
-            
-            h2 {
-                font-size: 2.8rem;
-                font-family: "Font Tittle";
-            }           
-            h3 {
-                margin-top: -0.5rem;
-                font-size: 1.11rem;
-            }
-        }
-
-        .portada-img {
-            gap: 3rem;
-            align-items: end;
-            .img1-portada {
-                margin-top: -0.85rem;
-                width: 45%;
-            }
-            .img2-portada {
-                margin-top: -2.95rem;
-                width: 40%;
-            }
-        }
-
-        // BTN CURSO - 432PX
-
-        .btn-cursos {
-            margin-top: 0rem;
-            margin-bottom: 0.8rem;
-    
-            .cssbuttons-io-button {
-                font-size: 1rem;
-                padding-left: 0.50rem;
-                padding-right: 2.8em;
-                }
-        }
-    
-
-    // SECCION 1 - INFO Y DESCRIPCIÓN - 432PX
-
-    .seccion-1 {
-        
-        h2 {
-            font-size: 2.2rem;
-            padding-top: 1rem;
-        }
-        .logo {
-            width: 60px;
-        }
-
-        .container-seccion1 {
-            display: block;
-        }
-        .seccion1-cartel {
-            width: 87%;
-            max-height: 270px;
-            margin-top: 1.5rem;
-
-            h4 {
-                text-align: center;
-                font-size: 1.144rem;
-                padding: 1.1rem 0.5rem 0rem 0.5rem;                
-            }
-            .cssbuttons-io-button {
-                font-size: 1rem;
-                margin-top: 1.5rem;
-            }
-        }
-        
-        .seccion1-img {
-            justify-content: center;
-            margin-right: 2rem;
-            margin-left: 4rem;
-            margin-top: 3rem;
-
-            .img1-seccion1 {
-                width: 190px;
-                
-                margin-top: -1rem;
-                margin-bottom: 5rem;
-            }
-            .img2-seccion1 {
-                width: 80%;
-                height: 230px;
-                top: 4.5rem;
-                
-            }
-        }
-    }
+//     // NAV BURGER - 432px
 
 
-    // SECCION 2 - SWIPER JS - 432PX
+//         .cerrar-nav,
+//         .abrir-nav {
+//             display: block;
+//         }
 
-    .seccion-2 {
-        min-height: 20%;
-        h2 {
-            font-size: 2.2rem;
-            padding-top: 2rem;
-            padding-bottom: 3rem;
-        }
+//         nav {
+//             opacity: 0;
+//             visibility: hidden;
 
-        .swiper {
-            padding-bottom: 3rem;
+//             flex-direction: column;
+//             justify-content: flex-start;
+//             align-items: end;
+//             gap: 2rem;
 
-            .swiper-wrapper {
-                gap: 3.7rem;
-            }
-            img{
-                width: 150px;
-                height: 350px;
-            }
-        }
-    }
+//             position: absolute;
+//             top: 0;
+//             right: 0;
+//             bottom: 0;
+//             background-color: rgb(46, 4, 72);
+//             padding: 1rem;
+//             box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+//             z-index: 1;
+//             transition: 0.3s;
 
-    // FOOTER - 432PX
+//             ul {
+//                 flex-direction: column;
+//                 align-items: end;
+//                 gap: 1.5rem;
+//             }
+//         }
+//         .nav.visible {
+//             opacity: 1;
+//             visibility: visible;
+//         }
 
-    footer {
-        .back-footer {
-            
-            h2 {
-                font-size: 2.5rem;
-            }
-        }
-        .desarrollo {
-            p {
-                width: 90%;
-            }
-        }
-    }
+//         .titulo-logo {
+//             margin-top: -2rem;
 
-    // PÁGINA CURSOS - 432PX
+//             h2 {
+//                 font-size: 2.8rem;
+//                 font-family: "Font Tittle";
+//             }
+//             h3 {
+//                 margin-top: -0.5rem;
+//                 font-size: 1.11rem;
+//             }
+//         }
 
-    .texto-cursos {
-        text-align: center;
-        font-size: 1.9rem;
-        width: 90%;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    }
+//         .portada-img {
+//             gap: 3rem;
+//             align-items: end;
+//             .img1-portada {
+//                 width: 40%;
+//             }
+//             .img2-portada {
+//                 width: 35%;
+//             }
+//         }
 
-    .container-cursos {
-        grid-template-columns: repeat(1, auto);
-        align-content: center;
-        margin: auto;
-        margin-bottom: 2.5rem;
+//         // BTN CURSO - 432PX
 
-        .fondo-curso {
-            width: 300px;
-            flex-direction: column;
-            margin: auto;
-            img {
-                width: 300px;
-                margin: auto;
-            }
-            .info {
-                p {
-                    width: 100%;
-                    font-size: 21px;
-                    
-                }
+//         .btn-cursos {
+//             margin-top: 0rem;
+//             margin-bottom: 0.8rem;
 
-                .button {
-                    display: flex;
-                    
-                }
-
-                button.learn-more {
-                    width: 140px;
-                    
-                    font-size: 13px;
-                }
-
-                button.learn-more .circle {
-                    width: 2rem;
-                    height: 2rem;
-                }
-                button.learn-more .circle .icon.arrow::before {
-                    right: 0.5rem;
-                }
-                button.learn-more .button-text {
-                    
-                    padding: 0.45rem 0;
-                    margin: 0 0 0 2.7rem;
-                }
-                button:hover .circle {
-                    width: 90%;
-                }
-                span.button-text {
-                    width: 50%;
-                }
-            }
-
-            // MODAL - 432PX
-
-            .modal-cont {
-                padding: 1rem;
-
-                img {
-                    width: 250px;
-                }
-                h2 {
-                    margin-bottom: 1rem;
-                    font-size: 2rem;
-                }
-            
-                h4 {
-                    font-size: 1.1rem;
-                }
-            
-                .contenido-modal {
-                    grid-template-columns: repeat(1, auto);
-
-                    .temario {
-                        margin-top: 0rem;
-                    }
-                    h3 {
-                        margin-top: 1.5rem;
-                    }
-
-                    .info-curso1 {
-                        text-align: start;
-                        margin: auto;
-                        padding: 1rem;
-                        font-size: 1rem;
-                        
-                            li  {
-                                margin-left: 1rem;
-                            }
-                    }
-                }
-                .btn-cerrar {
-                    margin-top: 1rem;
-                }
-            }
-        }
-    
-}
+//             .cssbuttons-io-button {
+//                 font-size: 1rem;
+//                 padding-left: 0.50rem;
+//                 padding-right: 2.8em;
+//                 }
+//         }
 
 
-    // PÁGINA CONTACTO - 432px
+//     // SECCION 1 - INFO Y DESCRIPCIÓN - 432PX
 
-    
-        video {
-            object-fit: cover;
-        }
-        .div-contacto {
-            padding: 0.5rem;
-        }
-    
-        .nav-contacto {
-            width: 100%;
-        }
+//     .seccion-1 {
 
-    .container-contacto {
-        width: 300px;
-        height: 450px;
-        margin-top: 6rem;
-    
-        h2 {
-            font-size: 2.3rem;
-        }
-        h4 {
-            font-size: 1.2rem;
-        }
+//         h2 {
+//             font-size: 2.2rem;
+//             padding-top: 1rem;
+//         }
+//         .logo {
+//             width: 60px;
+//         }
 
-        .contacto-wsp {
-            width: 250px;
-            
-            
-            p {
-                font-size: 1.2rem;
-            }
+//         .container-seccion1 {
+//             display: block;
+//         }
+//         .seccion1-cartel {
+//             max-width: 80%;
+//             max-height: 225px;
+//             margin-top: 1.5rem;
 
-            button {
-                font-size: 18px;
-                padding: 0.4rem 1.5rem;
-                font-weight: 600;
-                
-                img {
-                    width: 30px;
-                }
-            }
-            
-        }
-    }    
+//             h4 {
+//                 text-align: center;
+//                 font-size: 1.09rem;
+//                 padding: 0.9rem 0.3rem 0rem 0.3rem;
+//             }
+//             .cssbuttons-io-button {
+//                 font-size: 1rem;
+//             }
+//         }
 
-}
+//         .seccion1-img {
+//             justify-content: center;
+//             margin-right: 2rem;
+//             margin-left: 4rem;
+//             margin-top: 3rem;
+
+//             .img1-seccion1 {
+//                 width: 190px;
+
+//                 margin-top: -1rem;
+//                 margin-bottom: 5rem;
+//             }
+//             .img2-seccion1 {
+//                 width: 80%;
+//                 height: 230px;
+//                 top: 4.5rem;
+
+//             }
+//         }
+//     }
 
 
-// MEDIA QUERYS 320 - 370PX 
+//     // SECCION 2 - SWIPER JS - 432PX
 
-@media screen and (min-width: 320px) and (max-width: 370px) {
+//     .seccion-2 {
+//         min-height: 20%;
+//         h2 {
+//             font-size: 2.2rem;
+//             padding-top: 2rem;
+//             padding-bottom: 3rem;
+//         }
+
+//         .swiper {
+//             padding-bottom: 3rem;
+
+//             .swiper-wrapper {
+//                 gap: 3.7rem;
+//             }
+//             img{
+//                 width: 150px;
+//                 height: 350px;
+//             }
+//         }
+//     }
+
+//     // FOOTER - 432PX
+
+//     footer {
+//         .back-footer {
+
+//             h2 {
+//                 font-size: 2.5rem;
+//             }
+//         }
+//         .desarrollo {
+//             p {
+//                 width: 90%;
+//             }
+//         }
+//     }
+
+//     // PÁGINA CURSOS - 432PX
+
+//     .texto-cursos {
+//         text-align: center;
+//         font-size: 1.9rem;
+//         width: 90%;
+//         margin-top: 1rem;
+//         margin-bottom: 2rem;
+//     }
+
+//     .container-cursos {
+//         grid-template-columns: repeat(1, auto);
+//         align-content: center;
+//         margin: auto;
+//         margin-bottom: 2.5rem;
+
+//         .fondo-curso {
+//             width: 300px;
+//             flex-direction: column;
+//             margin: auto;
+//             img {
+//                 width: 300px;
+//                 margin: auto;
+//             }
+//             .info {
+//                 p {
+//                     width: 100%;
+//                     font-size: 21px;
+
+//                 }
+
+//                 .button {
+//                     display: flex;
+
+//                 }
+
+//                 button.learn-more {
+//                     width: 140px;
+
+//                     font-size: 13px;
+//                 }
+
+//                 button.learn-more .circle {
+//                     width: 2rem;
+//                     height: 2rem;
+//                 }
+//                 button.learn-more .circle .icon.arrow::before {
+//                     right: 0.5rem;
+//                 }
+//                 button.learn-more .button-text {
+
+//                     padding: 0.45rem 0;
+//                     margin: 0 0 0 2.7rem;
+//                 }
+//                 button:hover .circle {
+//                     width: 90%;
+//                 }
+//                 span.button-text {
+//                     width: 50%;
+//                 }
+//             }
+
+//             // MODAL - 432PX
+
+//             .modal-cont {
+//                 padding: 1rem;
+
+//                 img {
+//                     width: 250px;
+//                 }
+//                 h2 {
+//                     margin-bottom: 1rem;
+//                     font-size: 2rem;
+//                 }
+
+//                 h4 {
+//                     font-size: 1.1rem;
+//                 }
+
+//                 .contenido-modal {
+//                     grid-template-columns: repeat(1, auto);
+
+//                     .temario {
+//                         margin-top: 0rem;
+//                     }
+//                     h3 {
+//                         margin-top: 1.5rem;
+//                     }
+
+//                     .info-curso1 {
+//                         text-align: start;
+//                         margin: auto;
+//                         padding: 1rem;
+//                         font-size: 1rem;
+
+//                             li  {
+//                                 margin-left: 1rem;
+//                             }
+//                     }
+//                 }
+//                 .btn-cerrar {
+//                     margin-top: 1rem;
+//                 }
+//             }
+//         }
+
+// }
+
+
+//     // PÁGINA CONTACTO - 432px
+
+
+//         video {
+//             object-fit: cover;
+//         }
+//         .div-contacto {
+//             padding: 0.5rem;
+//         }
+
+//     .container-contacto {
+//         width: 300px;
+//         height: 450px;
+//         margin-top: 6rem;
+
+//         h2 {
+//             font-size: 2.3rem;
+//         }
+//         h4 {
+//             font-size: 1.2rem;
+//         }
+
+//         .contacto-wsp {
+//             width: 250px;
+
+
+//             p {
+//                 font-size: 1.2rem;
+//             }
+
+//             button {
+//                 font-size: 18px;
+//                 padding: 0.4rem 1.5rem;
+//                 font-weight: 600;
+
+//                 img {
+//                     width: 30px;
+//                 }
+//             }
+
+//         }
+//     }
+
+// }
+
+
+// MEDIA QUERYS 320 - 370PX
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
     // BOTÓN WSP
     .float {
@@ -4645,11 +4588,7 @@ footer {
 
     // NAV BURGER - 370px
 
-    .background-header {
-        min-height: 34%;
-    }
-
-        .cerrar-nav, 
+        .cerrar-nav,
         .abrir-nav {
             display: block;
         }
@@ -4668,11 +4607,11 @@ footer {
             right: 0;
             bottom: 0;
             background-color: rgb(46, 4, 72);
-            padding: 2rem;
-            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); 
+            padding: 1rem;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
             z-index: 1;
-            transition: 0.3s;   
-            
+            transition: 0.3s;
+
             ul {
                 flex-direction: column;
                 align-items: end;
@@ -4682,130 +4621,90 @@ footer {
         .nav.visible {
             opacity: 1;
             visibility: visible;
-        } 
+        }
 
-        .titulo-logo {
-            margin-top: -2.2rem;
+        .portada {
+            height: 93vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            
+        
+        .titulo-logo-boton {
             
             h2 {
-                font-size: 2.25rem;
+                font-size: 2.6rem;
                 font-family: "Font Tittle";
-            }           
+            }
             h3 {
-                margin-top: -0.5rem;
-                font-size: 1rem;
+                font-size: 1.5rem;
             }
         }
 
         .portada-img {
-            gap: 3rem;
-            align-items: end;
+
+            gap: 2rem;
+            
             .img1-portada {
-                margin-top: -0.85rem;
-                width: 45%;
+                width: 40%;
+                margin: 0;
+                display: none;
             }
             .img2-portada {
-                margin-top: -2.95rem;
-                width: 40%;
+                width: 70%;
+                margin: 0;
+                margin-top: 3rem;
+                
+                
             }
         }
 
-        // BTN CURSO 
+        // BTN CURSO
 
         .btn-cursos {
-            margin-top: 0rem;
-            margin-bottom: 0.8rem;
-    
+            margin-top: 1rem;
+
             .cssbuttons-io-button {
-                font-size: 0.85rem;
+                font-size: 1rem;
                 padding-left: 0.45rem;
                 padding-right: 2.8em;
                 }
         }
-    
+    }
+
 
     // SECCION 1 - INFO Y DESCRIPCIÓN - 370PX
 
     .seccion-1 {
-        
-        h2 {
-            font-size: 2rem;
-            padding: 1rem 0.5rem 0rem 0.5rem;
+        h3 {
+            font-size: 1rem;
         }
-        .logo {
-            width: 60px;
-        }
-
-        .container-seccion1 {
-            display: block;
-        }
-        .seccion1-cartel {
-            width: 87%;
-            max-height: 270px;
-            margin-top: 1.5rem;
-
-            h4 {
-                text-align: center;
-                font-size: 1.1rem;
-                padding: 0.8rem 0.5rem 0rem 0.5rem;
-                
-            }
-            .cssbuttons-io-button {
-                font-size: 1rem;
-                margin-top: 1rem;
-            }
-        }
-        
-        .seccion1-img {
-            justify-content: center;
-            margin-right: 2rem;
-            margin-left: 4rem;
-            margin-top: 3rem;
-
+        .img-seccion1 {
             .img1-seccion1 {
-                width: 180px;
-                
-                margin-top: -1rem;
-                margin-bottom: 5rem;
+                width: 100px;
             }
             .img2-seccion1 {
-                width: 80%;
-                height: 230px;
-                top: 4.5rem;
-                
+                width: 100px;
             }
         }
     }
 
 
-    // SECCION 2 - SWIPER JS - 370PX
+    // SECCION 2 - GALERÍA - 370PX
 
     .seccion-2 {
-        min-height: 20%;
         h2 {
-            font-size: 2rem;
-            padding-top: 2rem;
-            padding-bottom: 3rem;
-        }
-
-        .swiper {
-            padding-bottom: 3rem;
-
-            .swiper-wrapper {
-                gap: 4.5rem;
-            }
-            img{
-                width: 150px;
-                height: 350px;
-            }
+            font-size: 1rem;
         }
     }
 
-    // FOOTER 
+
+
+    // FOOTER
 
     footer {
         .back-footer {
-            
+
             h2 {
                 font-size: 2.5rem;
             }
@@ -4845,17 +4744,17 @@ footer {
                 p {
                     width: 100%;
                     font-size: 21px;
-                    
+
                 }
 
                 .button {
                     display: flex;
-                    
+
                 }
 
                 button.learn-more {
                     width: 140px;
-                    
+
                     font-size: 13px;
                 }
 
@@ -4867,7 +4766,7 @@ footer {
                     right: 0.5rem;
                 }
                 button.learn-more .button-text {
-                    
+
                     padding: 0.45rem 0;
                     margin: 0 0 0 2.7rem;
                 }
@@ -4891,11 +4790,11 @@ footer {
                     margin-bottom: 1rem;
                     font-size: 2rem;
                 }
-            
+
                 h4 {
                     font-size: 1.1rem;
                 }
-            
+
                 .contenido-modal {
                     grid-template-columns: repeat(1, auto);
 
@@ -4911,7 +4810,7 @@ footer {
                         margin: auto;
                         padding: 1rem;
                         font-size: 1rem;
-                        
+
                             li  {
                                 margin-left: 1rem;
                             }
@@ -4922,32 +4821,28 @@ footer {
                 }
             }
         }
-    
+
 }
 
 
 
-    
+
 
     // PÁGINA CONTACTO - 370px
 
-    
+
         video {
             object-fit: cover;
         }
         .div-contacto {
             padding: 0.5rem;
         }
-    
-        .nav-contacto {
-            width: 100%;
-        }
 
     .container-contacto {
         width: 300px;
         height: 450px;
         margin-top: 3rem;
-    
+
         h2 {
             font-size: 2.3rem;
         }
@@ -4957,8 +4852,8 @@ footer {
 
         .contacto-wsp {
             width: 250px;
-            
-            
+
+
             p {
                 font-size: 1.2rem;
             }
@@ -4967,14 +4862,14 @@ footer {
                 font-size: 18px;
                 padding: 0.4rem 1.5rem;
                 font-weight: 600;
-                
+
                 img {
                     width: 30px;
                 }
             }
-            
+
         }
-    }    
+    }
 
 
 }
