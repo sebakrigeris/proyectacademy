@@ -1,4 +1,4 @@
-const spans = document.querySelectorAll('span[data-modal]');
+const spans = document.querySelectorAll('button[data-modal]');
 const modals = document.querySelectorAll('dialog');
 
 spans.forEach((span) => {
