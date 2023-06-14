@@ -83,8 +83,7 @@
         .portada {
             background: linear-gradient(160deg,  #7A7BA8 50%, #FFE6FF);
             height: calc(100vh - 80px);
-            height: -webkit-fill-available;
-
+            
             
         .titulo-logo-boton {
             text-align: center;
@@ -4634,6 +4633,7 @@ footer {
             display: flex;
             justify-content: center;
             align-items: flex-end;
+            height: calc(100svh - 80px);
         
         .titulo-logo-boton {
             
