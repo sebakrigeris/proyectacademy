@@ -21,8 +21,3 @@ modals.forEach((modal) => {
     modal.close();
     });
 });
-
-
-modals.addEventListener('show', function() {
-    modals.querySelector('h2').focus();
-});
