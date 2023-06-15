@@ -16,3 +16,7 @@ modals.forEach((modal) => {
     modal.close();
     });
 });
+
+setTimeout(() => {
+    modals.scrollTop = 0;
+}, 100);
