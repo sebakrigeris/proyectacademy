@@ -17,6 +17,7 @@ modals.forEach((modal) => {
     });
 });
 
-setTimeout(() => {
-    modals.scrollTop = 0;
-}, 100);
+
+modals.addEventListener('show', function() {
+    modals.querySelector('h2').focus();
+});
