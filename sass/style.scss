@@ -500,8 +500,6 @@
 
             .btn-cerrar {
                 margin-top: 4rem;
-
-
             }
         }
 
@@ -4358,62 +4356,34 @@ footer {
 
     .texto-cursos {
         text-align: center;
-        font-size: 30px;
+        font-size: 1.8rem;
         width: 90%;
-        margin-top: 1rem;
         margin-bottom: 2rem;
     }
 
     .container-cursos {
         grid-template-columns: repeat(1, auto);
-        align-content: center;
-        margin: auto;
-        margin-bottom: 2.5rem;
 
         .fondo-curso {
-            width: 300px;
+            width: 80%;
             flex-direction: column;
             margin: auto;
             img {
-                width: 300px;
+                width: 100%;
                 margin: auto;
             }
             .info {
                 p {
                     width: 100%;
-                    font-size: 21px;
-
+                    font-size: 1.3rem;
                 }
-
                 .button {
-                    display: flex;
-
+                    gap: 2rem;
+                    button {
+                        font-size: 1rem;
+                    }
                 }
-
-                button.learn-more {
-                    width: 140px;
-
-                    font-size: 13px;
-                }
-
-                button.learn-more .circle {
-                    width: 2rem;
-                    height: 2rem;
-                }
-                button.learn-more .circle .icon.arrow::before {
-                    right: 0.5rem;
-                }
-                button.learn-more .button-text {
-
-                    padding: 0.45rem 0;
-                    margin: 0 0 0 2.7rem;
-                }
-                button:hover .circle {
-                    width: 90%;
-                }
-                span.button-text {
-                    width: 50%;
-                }
+                
             }
 
             // MODAL - 370PX
@@ -4422,15 +4392,15 @@ footer {
                 padding: 1rem;
 
                 img {
-                    width: 250px;
+                    width: 70%;
                 }
                 h2 {
                     margin-bottom: 1rem;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
 
                 h4 {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                 }
 
                 .contenido-modal {
@@ -4438,21 +4408,29 @@ footer {
 
                     .temario {
                         margin-top: 0rem;
+                        li {
+                            font-size: 1rem;
+                        }
                     }
                     h3 {
                         margin-top: 1.5rem;
+                        font-size: 1.3rem;
                     }
 
                     .info-curso1 {
                         text-align: start;
                         margin: auto;
                         padding: 1rem;
-                        font-size: 1rem;
-
+                        
                             li  {
                                 margin-left: 1rem;
+                                font-size: 1rem;
                             }
                     }
+                }
+                button {
+                    font-size: 1rem;
+                    padding: 0.3rem 3rem;
                 }
                 .btn-cerrar {
                     margin-top: 1rem;
