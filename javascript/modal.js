@@ -7,6 +7,11 @@ spans.forEach((span) => {
     const modal = document.getElementById(modalId);
     modal.showModal();
     modal.scrollTop = 0;
+
+    modal.addEventListener('show', function() {
+        modal.querySelector('h2').focus();
+    });
+
     });
 });
 
