@@ -9,9 +9,10 @@ spans.forEach((span) => {
     modal.scrollTop = 0;
 
     modal.addEventListener('show', function() {
+        setTimeout(() => {
         modal.querySelector('h2').focus();
-    });
-
+        }, 50);
+        });
     });
 });
 

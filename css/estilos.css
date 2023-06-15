@@ -260,8 +260,6 @@ nav {
   justify-content: center;
   gap: 2rem;
   margin-bottom: 5rem; }
-  .container-cursos dialog {
-    scroll-behavior: auto !important; }
   .container-cursos .fondo-curso {
     background-color: #00000094;
     width: 750px;
