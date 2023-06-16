@@ -354,9 +354,6 @@ nav {
       .container-cursos .fondo-curso .modal-cont .btn-cerrar {
         margin-top: 4rem; }
 
-.div-contacto {
-  padding: 0rem; }
-
 .back-c {
   position: fixed;
   min-width: 100%;
@@ -422,7 +419,7 @@ footer .back-footer {
 
 footer .redes-icon {
   width: 100%;
-  background-color: #601B5E;
+  background-color: #7A7BA8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -431,7 +428,7 @@ footer .redes-icon {
 
 footer .desarrollo {
   width: 100%;
-  background-color: #773174;
+  background: linear-gradient(-125deg, #7A7BA8 50%, #FFE6FF);
   display: flex;
   justify-content: center;
   padding: 1rem;
@@ -441,1749 +438,24 @@ footer .desarrollo {
     width: 40%;
     border-bottom: 1px solid white;
     padding-bottom: 0.1rem;
-    font-size: 17px;
+    font-size: 1rem;
     font-family: "Font Nav"; }
 
-@media screen and (max-width: 1773px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 50%; }
-  nav {
-    padding: 0; }
-  .titulo-logo {
-    margin-top: -0.5rem; }
-    .titulo-logo h2 {
-      font-size: 7rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      font-size: 3rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -6rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -20rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 5.5rem;
-    padding-top: 2rem; }
-  .seccion-1 .logo {
-    width: 100px; }
-  .seccion-1 .container-seccion1 {
-    padding: 0rem; }
-  .seccion-1 .seccion1-cartel {
-    width: 40%;
-    max-height: 350px;
-    margin-top: 2rem;
-    margin: auto; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.6rem;
-      padding: 1.5rem 1rem 0rem 1rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1.3rem;
-      margin-top: 4rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 0rem;
-    margin-left: 0rem;
-    margin-top: 5rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 450px;
-      margin-top: -2rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 380px;
-      height: 560px;
-      top: 1.8rem;
-      right: 2rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 5.5rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 4.7rem; }
-      .seccion-2 .swiper img {
-        width: 475px;
-        height: 780px; }
-  footer .back-footer h2 {
-    font-size: 3.5rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 5rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(2, auto);
-    gap: 1rem; }
-    .container-cursos .fondo-curso .info p {
-      width: 100%;
-      font-size: 30px; }
-    .container-cursos .fondo-curso .info .button {
-      display: flex; }
-    .container-cursos .fondo-curso .info button.learn-more {
-      width: 170px;
-      font-size: 16px; }
-    .container-cursos .fondo-curso .info button.learn-more .circle {
-      width: 2.3rem;
-      height: 2.3rem; }
-    .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-      right: 0.5rem; }
-    .container-cursos .fondo-curso .info button.learn-more .button-text {
-      padding: 0.45rem 0;
-      margin: 0 0 0 2.7rem; }
-    .container-cursos .fondo-curso .info button:hover .circle {
-      width: 90%; }
-    .container-cursos .fondo-curso .info span.button-text {
-      width: 50%; }
-    .container-cursos .fondo-curso .modal-cont {
-      padding: 1rem; }
-      .container-cursos .fondo-curso .modal-cont img {
-        width: 320px; }
-      .container-cursos .fondo-curso .modal-cont h2 {
-        margin-bottom: 1rem;
-        font-size: 2.6rem; }
-      .container-cursos .fondo-curso .modal-cont h4 {
-        font-size: 1.5rem; }
-      .container-cursos .fondo-curso .modal-cont .contenido-modal {
-        grid-template-columns: repeat(1, auto); }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-          margin-top: 0rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario li {
-            font-size: 1.2rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-          margin-top: 1.5rem;
-          font-size: 2rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-          text-align: start;
-          margin: auto;
-          padding: 1rem;
-          font-size: 1rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-            margin-left: 1rem;
-            font-size: 1.2rem; }
-      .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-        margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0rem; }
-  .ul-contacto {
-    margin-top: 0.5rem; }
-  .container-contacto {
-    width: 470px;
-    height: 470px;
-    margin-top: 10rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 380px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 22px;
-        padding: 0.8rem 2.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 1600px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 50%; }
-  nav {
-    padding: 0; }
-  .titulo-logo {
-    margin-top: -0.5rem; }
-    .titulo-logo h2 {
-      font-size: 7rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      font-size: 3rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -6rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -20rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 5.11rem;
-    padding-top: 2rem; }
-  .seccion-1 .logo {
-    width: 100px; }
-  .seccion-1 .container-seccion1 {
-    padding: 0rem; }
-  .seccion-1 .seccion1-cartel {
-    width: 40%;
-    max-height: 350px;
-    margin-top: 2rem;
-    margin: auto; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.6rem;
-      padding: 1.5rem 1rem 0rem 1rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1.3rem;
-      margin-top: 4rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 0rem;
-    margin-left: 0rem;
-    margin-top: 5rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 450px;
-      margin-top: -2rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 380px;
-      height: 560px;
-      top: 1.8rem;
-      right: 2rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 5.11rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 4.7rem; }
-      .seccion-2 .swiper img {
-        width: 450px;
-        height: 730px; }
-  footer .back-footer h2 {
-    font-size: 3.5rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 3.2rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(2, auto);
-    gap: 1rem; }
-    .container-cursos .fondo-curso {
-      width: 650px; }
-      .container-cursos .fondo-curso img {
-        width: 330px; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 25px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 320px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2.6rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.5rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .temario li {
-              font-size: 1.2rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem;
-            font-size: 2rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem;
-              font-size: 1.2rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0rem; }
-  .ul-contacto {
-    margin-top: 0.5rem; }
-  .container-contacto {
-    width: 470px;
-    height: 470px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 380px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 22px;
-        padding: 0.8rem 2.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 1500px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 50%; }
-  nav {
-    padding: 0; }
-  .titulo-logo {
-    margin-top: -0.5rem; }
-    .titulo-logo h2 {
-      font-size: 7rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      font-size: 3rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -6rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -20rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 4.8em;
-    padding-top: 2rem; }
-  .seccion-1 .logo {
-    width: 100px; }
-  .seccion-1 .container-seccion1 {
-    padding: 0rem; }
-  .seccion-1 .seccion1-cartel {
-    width: 40%;
-    max-height: 350px;
-    margin-top: 2rem;
-    margin: auto; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.6rem;
-      padding: 1.5rem 1rem 0rem 1rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1.3rem;
-      margin-top: 4rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 0rem;
-    margin-left: 0rem;
-    margin-top: 5rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 430px;
-      margin-top: 0rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 330px;
-      height: 480px;
-      top: 5.2rem;
-      right: 2rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 4.8rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 410px;
-        height: 650px; }
-  footer .back-footer h2 {
-    font-size: 3.5rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 3.2rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(2, auto);
-    gap: 1rem; }
-    .container-cursos .fondo-curso {
-      width: 650px; }
-      .container-cursos .fondo-curso img {
-        width: 330px; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 25px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 320px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2.6rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.5rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .temario li {
-              font-size: 1.2rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem;
-            font-size: 2rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem;
-              font-size: 1.2rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0rem; }
-  .ul-contacto {
-    margin-top: 0.5rem; }
-  .container-contacto {
-    width: 470px;
-    height: 470px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 380px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 22px;
-        padding: 0.8rem 2.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 1400px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 50%; }
-  nav {
-    padding: 0; }
-  .titulo-logo {
-    margin-top: -0.5rem; }
-    .titulo-logo h2 {
-      font-size: 7rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      font-size: 3rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -2rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -12rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 4.2em;
-    padding-top: 1.5rem; }
-  .seccion-1 .logo {
-    width: 100px; }
-  .seccion-1 .container-seccion1 {
-    padding: 0rem; }
-  .seccion-1 .seccion1-cartel {
-    width: 40%;
-    max-height: 350px;
-    margin-top: 2rem;
-    margin: auto; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.5rem;
-      padding: 1.5rem 1rem 0rem 1rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1.3rem;
-      margin-top: 3rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 0rem;
-    margin-left: 0rem;
-    margin-top: 5rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 390px;
-      margin-top: -2rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 300px;
-      height: 450px;
-      top: 1.5rem;
-      right: 2rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 4.2rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 365px;
-        height: 600px; }
-  footer .back-footer h2 {
-    font-size: 3.5rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 3.2rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(2, auto);
-    gap: 1rem; }
-    .container-cursos .fondo-curso {
-      width: 590px; }
-      .container-cursos .fondo-curso img {
-        width: 280px; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 25px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 280px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2.2rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.25rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0rem; }
-  .ul-contacto {
-    margin-top: 0.5rem; }
-  .container-contacto {
-    width: 470px;
-    height: 470px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 380px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 22px;
-        padding: 0.8rem 2.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 1250px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 50%; }
-  nav {
-    padding: 0; }
-  .titulo-logo {
-    margin-top: -0.5rem; }
-    .titulo-logo h2 {
-      font-size: 7rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      font-size: 3rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -2rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -9rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 5.3rem;
-    padding: 1.5rem 12rem 0rem 12rem; }
-  .seccion-1 .logo {
-    width: 105px; }
-  .seccion-1 .container-seccion1 {
-    display: block; }
-  .seccion-1 .seccion1-cartel {
-    width: 90%;
-    max-height: 280px;
-    margin-top: 2rem; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.7rem;
-      padding: 1.5rem 1rem 0rem 1rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1.3rem;
-      margin-top: 3rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 2rem;
-    margin-left: 4rem;
-    margin-top: 5rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 400px;
-      margin-top: -1rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 330px;
-      height: 480px;
-      top: 3rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 5rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 345px;
-        height: 600px; }
-  footer .back-footer h2 {
-    font-size: 3.5rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 3.2rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(2, auto);
-    gap: 1rem; }
-    .container-cursos .fondo-curso {
-      width: 550px; }
-      .container-cursos .fondo-curso img {
-        width: 250px; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 25px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 280px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2.2rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.25rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0rem; }
-  .ul-contacto {
-    margin-top: 0.5rem; }
-  .container-contacto {
-    width: 450px;
-    height: 470px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 350px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 18px;
-        padding: 0.4rem 1.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 1150px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 50%; }
-  nav {
-    padding: 0; }
-  .titulo-logo {
-    margin-top: -0.5rem; }
-    .titulo-logo h2 {
-      font-size: 7rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      font-size: 3rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -2rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -7rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 5rem;
-    padding: 1.5rem 8rem 0rem 8rem; }
-  .seccion-1 .logo {
-    width: 105px; }
-  .seccion-1 .container-seccion1 {
-    display: block; }
-  .seccion-1 .seccion1-cartel {
-    width: 90%;
-    max-height: 280px;
-    margin-top: 2rem; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.8rem;
-      padding: 1.5rem 0.8rem 0rem 0.8rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1.3rem;
-      margin-top: 1rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 2rem;
-    margin-left: 4rem;
-    margin-top: 5rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 400px;
-      margin-top: -1rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 330px;
-      height: 480px;
-      top: 3rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 4.8rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 300px;
-        height: 530px; }
-  footer .back-footer h2 {
-    font-size: 3.5rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 3.2rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(1, auto); }
-    .container-cursos .fondo-curso {
-      width: 700px; }
-      .container-cursos .fondo-curso img {
-        width: 350px; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 30px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 280px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2.2rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.25rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0rem; }
-  .ul-contacto {
-    margin-top: 0.5rem; }
-  .container-contacto {
-    width: 450px;
-    height: 470px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 350px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 18px;
-        padding: 0.4rem 1.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 982px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 50%; }
-  .cerrar-nav,
-  .abrir-nav {
-    display: block; }
-  .nav-abrir {
-    width: 50px; }
-  nav {
-    opacity: 0;
-    visibility: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: end;
-    gap: 2rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #2e0448;
-    padding: 1rem;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    transition: 0.3s; }
-    nav ul {
-      flex-direction: column;
-      align-items: end;
-      gap: 1.5rem; }
-  .nav.visible {
-    opacity: 1;
-    visibility: visible; }
-  .titulo-logo {
-    margin-top: -2rem; }
-    .titulo-logo h2 {
-      font-size: 6.7rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      font-size: 3rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -2rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -6rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 5rem;
-    padding: 1rem; }
-  .seccion-1 .logo {
-    width: 75px; }
-  .seccion-1 .container-seccion1 {
-    display: block; }
-  .seccion-1 .seccion1-cartel {
-    width: 90%;
-    max-height: 280px;
-    margin-top: 2rem; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.6rem;
-      padding: 1.5rem 0.8rem 0rem 0.8rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1.3rem;
-      margin-top: 1.3rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 2rem;
-    margin-left: 4rem;
-    margin-top: 5rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 370px;
-      margin-top: -1rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 310px;
-      height: 460px;
-      top: 2rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 5rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 265px;
-        height: 470px; }
-  footer .back-footer h2 {
-    font-size: 3.5rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 2.4rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(1, auto); }
-    .container-cursos .fondo-curso {
-      width: 650px; }
-      .container-cursos .fondo-curso img {
-        width: 300px; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 21px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 280px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2.2rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.25rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0.5rem; }
-  .container-contacto {
-    width: 450px;
-    height: 470px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 350px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 18px;
-        padding: 0.4rem 1.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 824px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 34%; }
-  .cerrar-nav,
-  .abrir-nav {
-    display: block; }
-  .nav-abrir {
-    width: 50px; }
-  nav {
-    opacity: 0;
-    visibility: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: end;
-    gap: 2rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #2e0448;
-    padding: 1rem;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    transition: 0.3s; }
-    nav ul {
-      flex-direction: column;
-      align-items: end;
-      gap: 1.5rem; }
-  .nav.visible {
-    opacity: 1;
-    visibility: visible; }
-  .titulo-logo {
-    margin-top: -2rem; }
-    .titulo-logo h2 {
-      font-size: 5.8rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      margin-top: -0.5rem;
-      font-size: 2.4rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -0.85rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -2.95rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 4.19rem;
-    padding-top: 1rem; }
-  .seccion-1 .logo {
-    width: 75px; }
-  .seccion-1 .container-seccion1 {
-    display: block; }
-  .seccion-1 .seccion1-cartel {
-    width: 80%;
-    max-height: 280px;
-    margin-top: 2rem; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.45rem;
-      padding: 1.5rem 0.5rem 0rem 0.5rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1.3rem;
-      margin-top: 1.3rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 2rem;
-    margin-left: 4rem;
-    margin-top: 5rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 320px;
-      margin-top: -1rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 270px;
-      height: 400px;
-      top: 2rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 4.19rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 235px;
-        height: 410px; }
-  footer .back-footer h2 {
-    font-size: 3.2rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 2.4rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(1, auto); }
-    .container-cursos .fondo-curso {
-      width: 650px; }
-      .container-cursos .fondo-curso img {
-        width: 300px; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 21px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 280px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2.2rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.25rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0.5rem; }
-  .container-contacto {
-    width: 450px;
-    height: 470px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 350px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 18px;
-        padding: 0.4rem 1.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 708px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 34%; }
-  .cerrar-nav,
-  .abrir-nav {
-    display: block; }
-  .nav-abrir {
-    width: 40px; }
-  nav {
-    opacity: 0;
-    visibility: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: end;
-    gap: 2rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #2e0448;
-    padding: 1rem;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    transition: 0.3s; }
-    nav ul {
-      flex-direction: column;
-      align-items: end;
-      gap: 1.5rem; }
-  .nav.visible {
-    opacity: 1;
-    visibility: visible; }
-  .titulo-logo {
-    margin-top: -2rem; }
-    .titulo-logo h2 {
-      font-size: 4.7rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      margin-top: -0.5rem;
-      font-size: 2rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -0.85rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -2.95rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.5rem; }
-  .seccion-1 h2 {
-    font-size: 3.6rem;
-    padding-top: 1rem; }
-  .seccion-1 .logo {
-    width: 75px; }
-  .seccion-1 .container-seccion1 {
-    display: block; }
-  .seccion-1 .seccion1-cartel {
-    width: 80%;
-    max-height: 255px;
-    margin-top: 1.9rem; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.31rem;
-      padding: 1rem 0.5rem 0rem 0.5rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1rem;
-      margin-top: 1.3rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 2rem;
-    margin-left: 4rem;
-    margin-top: 3rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 290px;
-      margin-top: -1rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 240px;
-      height: 320px;
-      top: 5rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 3.6rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 207px;
-        height: 390px; }
-  footer .back-footer h2 {
-    font-size: 3.2rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 2.4rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(1, auto);
-    align-content: center;
-    margin: auto;
-    margin-bottom: 2.5rem; }
-    .container-cursos .fondo-curso {
-      width: 350px;
-      flex-direction: column;
-      margin: auto; }
-      .container-cursos .fondo-curso img {
-        width: 350px;
-        margin: auto; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 21px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 280px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2.2rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.25rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0.5rem; }
-  .container-contacto {
-    width: 450px;
-    height: 470px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 350px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 18px;
-        padding: 0.4rem 1.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 590px) {
-  .float {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    font-size: 30px; }
-  .background-header {
-    min-height: 34%; }
-  .cerrar-nav,
-  .abrir-nav {
-    display: block; }
-  .nav-abrir {
-    width: 40px; }
-  nav {
-    opacity: 0;
-    visibility: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: end;
-    gap: 2rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #2e0448;
-    padding: 1rem;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    transition: 0.3s; }
-    nav ul {
-      flex-direction: column;
-      align-items: end;
-      gap: 1.5rem; }
-  .nav.visible {
-    opacity: 1;
-    visibility: visible; }
-  .titulo-logo {
-    margin-top: -2rem; }
-    .titulo-logo h2 {
-      font-size: 3.9rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      margin-top: -0.5rem;
-      font-size: 1.7rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -0.85rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -2.95rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.4rem;
-      padding-left: 0.55rem;
-      padding-right: 2.8em; }
-  .seccion-1 h2 {
-    font-size: 3rem;
-    padding-top: 1rem; }
-  .seccion-1 .logo {
-    width: 75px; }
-  .seccion-1 .container-seccion1 {
-    display: block; }
-  .seccion-1 .seccion1-cartel {
-    width: 80%;
-    max-height: 255px;
-    margin-top: 1.9rem; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.234rem;
-      padding: 1rem 0.5rem 0rem 0.5rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1rem;
-      margin-top: 1.3rem; }
-  .seccion-1 .seccion1-img {
-    justify-content: center;
-    margin-right: 2rem;
-    margin-left: 4rem;
-    margin-top: 3rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 260px;
-      margin-top: -1rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 200px;
-      height: 310px;
-      top: 6rem; }
-  .seccion-2 {
-    min-height: 20%; }
-    .seccion-2 h2 {
-      font-size: 3rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 180px;
-        height: 350px; }
-  footer .back-footer h2 {
-    font-size: 3rem; }
-  footer .desarrollo p {
-    width: 90%; }
-  .texto-cursos {
-    text-align: center;
-    font-size: 2.4rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-  .container-cursos {
-    grid-template-columns: repeat(1, auto);
-    align-content: center;
-    margin: auto;
-    margin-bottom: 2.5rem; }
-    .container-cursos .fondo-curso {
-      width: 350px;
-      flex-direction: column;
-      margin: auto; }
-      .container-cursos .fondo-curso img {
-        width: 350px;
-        margin: auto; }
-      .container-cursos .fondo-curso .info p {
-        width: 100%;
-        font-size: 21px; }
-      .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
-      .container-cursos .fondo-curso .modal-cont {
-        padding: 1rem; }
-        .container-cursos .fondo-curso .modal-cont img {
-          width: 250px; }
-        .container-cursos .fondo-curso .modal-cont h2 {
-          margin-bottom: 1rem;
-          font-size: 2rem; }
-        .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.1rem; }
-        .container-cursos .fondo-curso .modal-cont .contenido-modal {
-          grid-template-columns: repeat(1, auto); }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
-            margin-top: 0rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem; }
-          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
-            text-align: start;
-            margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
-            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem; }
-        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
-          margin-top: 1rem; }
-  video {
-    object-fit: cover; }
-  .div-contacto {
-    padding: 0.5rem; }
-  .container-contacto {
-    width: 400px;
-    height: 450px;
-    margin-top: 6rem; }
-    .container-contacto h2 {
-      font-size: 2.9rem; }
-    .container-contacto h4 {
-      font-size: 1.4rem; }
-    .container-contacto .contacto-wsp {
-      width: 350px; }
-      .container-contacto .contacto-wsp p {
-        font-size: 1.2rem; }
-      .container-contacto .contacto-wsp button {
-        font-size: 18px;
-        padding: 0.4rem 1.5rem;
-        font-weight: 600; }
-        .container-contacto .contacto-wsp button img {
-          width: 30px; } }
-
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .float {
     width: 50px;
     height: 50px;
     right: 20px;
     font-size: 20px; }
-  .background-header {
-    min-height: 34%; }
   .cerrar-nav,
   .abrir-nav {
     display: block; }
-  .nav-abrir {
-    width: 35px; }
+  .abrir-nav img {
+    width: 40px; }
+  .div-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem; }
   nav {
     opacity: 0;
     visibility: hidden;
@@ -2207,154 +479,313 @@ footer .desarrollo {
   .nav.visible {
     opacity: 1;
     visibility: visible; }
-  .titulo-logo {
-    margin-top: -2rem; }
-    .titulo-logo h2 {
-      font-size: 3.2rem;
-      font-family: "Font Tittle"; }
-    .titulo-logo h3 {
-      margin-top: -0.5rem;
-      font-size: 1.4rem; }
-  .portada-img {
-    gap: 3rem;
-    align-items: end; }
-    .portada-img .img1-portada {
-      margin-top: -0.85rem;
-      width: 45%; }
-    .portada-img .img2-portada {
-      margin-top: -2.95rem;
-      width: 40%; }
-  .btn-cursos {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem; }
-    .btn-cursos .cssbuttons-io-button {
-      font-size: 1.1rem;
-      padding-left: 0.50rem;
-      padding-right: 2.8em; }
-  .seccion-1 h2 {
-    font-size: 2.6rem;
-    padding-top: 1rem; }
-  .seccion-1 .logo {
-    width: 60px; }
-  .seccion-1 .container-seccion1 {
-    display: block; }
-  .seccion-1 .seccion1-cartel {
-    width: 80%;
-    max-height: 265px;
-    margin-top: 1.5rem; }
-    .seccion-1 .seccion1-cartel h4 {
-      text-align: center;
-      font-size: 1.2rem;
-      padding: 1rem 0.5rem 0rem 0.5rem; }
-    .seccion-1 .seccion1-cartel .cssbuttons-io-button {
-      font-size: 1rem;
-      margin-top: 0.7rem; }
-  .seccion-1 .seccion1-img {
+  .portada {
+    display: flex;
     justify-content: center;
-    margin-right: 2rem;
-    margin-left: 4rem;
-    margin-top: 3rem; }
-    .seccion-1 .seccion1-img .img1-seccion1 {
-      width: 210px;
-      margin-top: -1rem;
-      margin-bottom: 5rem; }
-    .seccion-1 .seccion1-img .img2-seccion1 {
-      width: 90%;
-      height: 270px;
-      top: 4rem; }
+    align-items: flex-end;
+    height: calc(100lvh - 80px); }
+    .portada .titulo-logo-boton h2 {
+      font-size: 3.3rem;
+      font-family: "Font Tittle"; }
+    .portada .titulo-logo-boton h3 {
+      font-size: 2rem; }
+    .portada .titulo-logo-boton .btn-cursos button {
+      font-size: 1.1rem; }
+    .portada .portada-img {
+      display: flex;
+      align-items: flex-end;
+      gap: 1.2rem; }
+      .portada .portada-img .img1-portada {
+        width: 45%;
+        margin: 0; }
+      .portada .portada-img .img2-portada {
+        width: 45%;
+        margin: 0; }
+    .portada .btn-cursos {
+      margin-top: 1rem; }
+      .portada .btn-cursos .cssbuttons-io-button {
+        font-size: 1rem;
+        padding-left: 0.65rem;
+        padding-right: 2.9em; }
+  .seccion-1 h3 {
+    top: 5rem;
+    left: 2rem;
+    font-size: 3rem; }
+  .seccion-1 .img-seccion1 {
+    width: 100%; }
+    .seccion-1 .img-seccion1 .img1-seccion1 {
+      top: 7rem;
+      width: 35%; }
+    .seccion-1 .img-seccion1 .img2-seccion1 {
+      width: 45%;
+      margin-right: 3rem; }
+  .info-index {
+    padding: 1.8rem 1rem; }
+    .info-index p {
+      font-size: 1.24rem; }
+    .info-index button {
+      font-size: 1.3rem;
+      margin-top: 2.3rem; }
   .seccion-2 {
-    min-height: 20%; }
+    padding: 3rem 1.5rem; }
     .seccion-2 h2 {
-      font-size: 2.6rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem; }
-    .seccion-2 .swiper {
-      padding-bottom: 3rem; }
-      .seccion-2 .swiper .swiper-wrapper {
-        gap: 3.7rem; }
-      .seccion-2 .swiper img {
-        width: 165px;
+      font-size: 2rem;
+      margin: 0;
+      padding: 0; }
+    .seccion-2 .galeria {
+      grid-template-columns: repeat(3, auto);
+      gap: 0.35rem; }
+      .seccion-2 .galeria .galeria-img img {
         height: 350px; }
+      .seccion-2 .galeria .galeria-img:nth-child(1) {
+        grid-column-start: span 3; }
+      .seccion-2 .galeria .galeria-img:nth-child(5) {
+        grid-column-end: span 2; }
+      .seccion-2 .galeria .galeria-img:nth-child(10) {
+        grid-column-end: span 4; }
   footer .back-footer h2 {
     font-size: 2.5rem; }
   footer .desarrollo p {
-    width: 90%; }
+    width: 70%; }
   .texto-cursos {
     text-align: center;
-    font-size: 1.9rem;
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
+    font-size: 3rem;
+    width: 90%; }
   .container-cursos {
     grid-template-columns: repeat(1, auto);
-    align-content: center;
-    margin: auto;
-    margin-bottom: 2.5rem; }
+    margin-top: 2rem; }
     .container-cursos .fondo-curso {
-      width: 300px;
-      flex-direction: column;
+      width: 75%;
       margin: auto; }
       .container-cursos .fondo-curso img {
-        width: 300px;
+        width: 40%;
         margin: auto; }
       .container-cursos .fondo-curso .info p {
         width: 100%;
-        font-size: 21px; }
+        font-size: 1.3rem; }
       .container-cursos .fondo-curso .info .button {
-        display: flex; }
-      .container-cursos .fondo-curso .info button.learn-more {
-        width: 140px;
-        font-size: 13px; }
-      .container-cursos .fondo-curso .info button.learn-more .circle {
-        width: 2rem;
-        height: 2rem; }
-      .container-cursos .fondo-curso .info button.learn-more .circle .icon.arrow::before {
-        right: 0.5rem; }
-      .container-cursos .fondo-curso .info button.learn-more .button-text {
-        padding: 0.45rem 0;
-        margin: 0 0 0 2.7rem; }
-      .container-cursos .fondo-curso .info button:hover .circle {
-        width: 90%; }
-      .container-cursos .fondo-curso .info span.button-text {
-        width: 50%; }
+        gap: 2rem; }
+        .container-cursos .fondo-curso .info .button button {
+          font-size: 1.2rem; }
       .container-cursos .fondo-curso .modal-cont {
         padding: 1rem; }
         .container-cursos .fondo-curso .modal-cont img {
-          width: 250px; }
+          width: 70%; }
         .container-cursos .fondo-curso .modal-cont h2 {
           margin-bottom: 1rem;
-          font-size: 2rem; }
+          font-size: 1.5rem; }
         .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1.1rem; }
+          font-size: 1rem; }
         .container-cursos .fondo-curso .modal-cont .contenido-modal {
           grid-template-columns: repeat(1, auto); }
           .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
             margin-top: 0rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .temario li {
+              font-size: 1rem; }
           .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
-            margin-top: 1.5rem; }
+            margin-top: 1.5rem;
+            font-size: 1.3rem; }
           .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
             text-align: start;
             margin: auto;
-            padding: 1rem;
-            font-size: 1rem; }
+            padding: 1rem; }
             .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
-              margin-left: 1rem; }
+              margin-left: 1rem;
+              font-size: 1rem; }
+        .container-cursos .fondo-curso .modal-cont button {
+          font-size: 1rem;
+          padding: 0.3rem 3rem; }
         .container-cursos .fondo-curso .modal-cont .btn-cerrar {
           margin-top: 1rem; }
   video {
     object-fit: cover; }
-  .div-contacto {
-    padding: 0.5rem; }
   .container-contacto {
-    width: 300px;
+    width: 400px;
     height: 450px;
-    margin-top: 6rem; }
+    margin-top: 7rem; }
     .container-contacto h2 {
       font-size: 2.3rem; }
     .container-contacto h4 {
       font-size: 1.2rem; }
     .container-contacto .contacto-wsp {
-      width: 250px; }
+      width: 320px; }
+      .container-contacto .contacto-wsp p {
+        font-size: 1.2rem; }
+      .container-contacto .contacto-wsp button {
+        font-size: 18px;
+        padding: 0.4rem 1.5rem;
+        font-weight: 600; }
+        .container-contacto .contacto-wsp button img {
+          width: 30px; } }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .float {
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    font-size: 20px; }
+  .cerrar-nav,
+  .abrir-nav {
+    display: block; }
+  .abrir-nav img {
+    width: 40px; }
+  .div-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem; }
+  nav {
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
+    gap: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e0448;
+    padding: 1rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: 0.3s; }
+    nav ul {
+      flex-direction: column;
+      align-items: end;
+      gap: 1.5rem; }
+  .nav.visible {
+    opacity: 1;
+    visibility: visible; }
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100svh - 80px); }
+    .portada .titulo-logo-boton h2 {
+      font-size: 3.3rem;
+      font-family: "Font Tittle"; }
+    .portada .titulo-logo-boton h3 {
+      font-size: 2rem; }
+    .portada .titulo-logo-boton .btn-cursos button {
+      font-size: 1.1rem; }
+    .portada .portada-img {
+      gap: 2rem; }
+      .portada .portada-img .img1-portada {
+        width: 40%;
+        margin: 0;
+        display: none; }
+      .portada .portada-img .img2-portada {
+        width: 60%;
+        margin: 0;
+        margin-top: 3rem; }
+    .portada .btn-cursos {
+      margin-top: 1rem; }
+      .portada .btn-cursos .cssbuttons-io-button {
+        font-size: 1rem;
+        padding-left: 0.45rem;
+        padding-right: 2.8em; }
+  .seccion-1 h3 {
+    top: 7rem;
+    left: 1rem;
+    font-size: 2.6rem; }
+  .seccion-1 .img-seccion1 {
+    width: 100%; }
+    .seccion-1 .img-seccion1 .img1-seccion1 {
+      top: 7rem;
+      width: 40%; }
+    .seccion-1 .img-seccion1 .img2-seccion1 {
+      width: 50%;
+      margin-right: 3rem; }
+  .info-index {
+    padding: 2rem 1rem; }
+    .info-index p {
+      font-size: 1.2rem; }
+    .info-index button {
+      font-size: 1.3rem; }
+  .seccion-2 {
+    padding: 3rem 1.5rem; }
+    .seccion-2 h2 {
+      font-size: 2rem;
+      margin: 0;
+      padding: 0; }
+    .seccion-2 .galeria {
+      grid-template-columns: repeat(3, auto);
+      gap: 0.35rem; }
+      .seccion-2 .galeria .galeria-img img {
+        height: 350px; }
+      .seccion-2 .galeria .galeria-img:nth-child(1) {
+        grid-column-start: span 3; }
+      .seccion-2 .galeria .galeria-img:nth-child(5) {
+        grid-column-end: span 2; }
+      .seccion-2 .galeria .galeria-img:nth-child(10) {
+        grid-column-end: span 4; }
+  footer .back-footer h2 {
+    font-size: 2.5rem; }
+  footer .desarrollo p {
+    width: 70%; }
+  .texto-cursos {
+    text-align: center;
+    font-size: 2.1rem;
+    width: 90%; }
+  .container-cursos {
+    grid-template-columns: repeat(1, auto);
+    margin-top: 1rem; }
+    .container-cursos .fondo-curso {
+      width: 65%;
+      flex-direction: column;
+      margin: auto; }
+      .container-cursos .fondo-curso img {
+        width: 100%;
+        margin: auto; }
+      .container-cursos .fondo-curso .info p {
+        width: 100%;
+        font-size: 1.3rem; }
+      .container-cursos .fondo-curso .info .button {
+        gap: 2rem; }
+        .container-cursos .fondo-curso .info .button button {
+          font-size: 1.2rem; }
+      .container-cursos .fondo-curso .modal-cont {
+        padding: 1rem; }
+        .container-cursos .fondo-curso .modal-cont img {
+          width: 70%; }
+        .container-cursos .fondo-curso .modal-cont h2 {
+          margin-bottom: 1rem;
+          font-size: 1.5rem; }
+        .container-cursos .fondo-curso .modal-cont h4 {
+          font-size: 1rem; }
+        .container-cursos .fondo-curso .modal-cont .contenido-modal {
+          grid-template-columns: repeat(1, auto); }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
+            margin-top: 0rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .temario li {
+              font-size: 1rem; }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
+            margin-top: 1.5rem;
+            font-size: 1.3rem; }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
+            text-align: start;
+            margin: auto;
+            padding: 1rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
+              margin-left: 1rem;
+              font-size: 1rem; }
+        .container-cursos .fondo-curso .modal-cont button {
+          font-size: 1rem;
+          padding: 0.3rem 3rem; }
+        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
+          margin-top: 1rem; }
+  video {
+    object-fit: cover; }
+  .container-contacto {
+    width: 400px;
+    height: 450px;
+    margin-top: 7rem; }
+    .container-contacto h2 {
+      font-size: 2.3rem; }
+    .container-contacto h4 {
+      font-size: 1.2rem; }
+    .container-contacto .contacto-wsp {
+      width: 320px; }
       .container-contacto .contacto-wsp p {
         font-size: 1.2rem; }
       .container-contacto .contacto-wsp button {
@@ -2468,10 +899,10 @@ footer .desarrollo {
   .texto-cursos {
     text-align: center;
     font-size: 1.8rem;
-    width: 90%;
-    margin-bottom: 2rem; }
+    width: 90%; }
   .container-cursos {
-    grid-template-columns: repeat(1, auto); }
+    grid-template-columns: repeat(1, auto);
+    margin-top: 2rem; }
     .container-cursos .fondo-curso {
       width: 80%;
       flex-direction: column;
@@ -2518,8 +949,6 @@ footer .desarrollo {
           margin-top: 1rem; }
   video {
     object-fit: cover; }
-  .div-contacto {
-    padding: 0.5rem; }
   .container-contacto {
     width: 300px;
     height: 450px;
