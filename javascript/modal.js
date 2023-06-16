@@ -6,12 +6,7 @@ spans.forEach((span) => {
     const modalId = span.dataset.modal;
     const modal = document.getElementById(modalId);
     modal.showModal();
-    modal.scrollTop = 0;
-
-    modal.addEventListener('show', function() {
-        modal.querySelector('h2').focus();
-    });
-
+    modal.scrollTo(0, 0);
     });
 });
 
