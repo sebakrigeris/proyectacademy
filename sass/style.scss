@@ -644,7 +644,7 @@ footer {
 
 // MEDIA QUERYS - 1900PX
 
-@media screen and (min-width: 1501px) and (max-width: 1900px) {
+@media screen and (min-width: 1501px) and (max-width: 1919px) {
 
     // BOTÓN WSP
     .float {
@@ -658,7 +658,7 @@ footer {
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            height: calc(100lvh - 80px);
+            height: calc(100vh - 80px);
         .titulo-logo-boton {
             
             
@@ -939,7 +939,7 @@ footer {
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            height: calc(100lvh - 80px);
+            height: calc(100vh - 80px);
         .titulo-logo-boton {
             
             
@@ -953,7 +953,7 @@ footer {
             .btn-cursos {
                 button {
                     font-size: 1.3rem;
-                    margin-bottom: 8rem;
+                    margin-bottom: 6rem;
                 }
             }
         }
@@ -965,11 +965,11 @@ footer {
             gap: 1rem;
             
             .img1-portada {
-                width: 35%;
+                width: 34%;
                 
             }
             .img2-portada {
-                width: 35%;
+                width: 34%;
                 
             }
         }
