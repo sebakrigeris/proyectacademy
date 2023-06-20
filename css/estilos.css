@@ -25,9 +25,15 @@ header {
   height: 80px; }
 
 .nav-abrir {
-  border: none;
-  outline: none;
-  color: white; }
+  padding: 0.3rem; }
+
+.cerrar-nav {
+  color: white;
+  font-size: 2rem; }
+  .cerrar-nav i {
+    transition: 0.2s; }
+  .cerrar-nav i:hover {
+    transform: rotate(30deg); }
 
 .abrir-nav,
 .cerrar-nav {
@@ -380,8 +386,7 @@ nav {
   .container-contacto .contacto-wsp {
     width: 500px;
     height: 300px;
-    background: url("../assets/background/backgroundProd.jpg");
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.487);
     margin: auto;
     margin-top: 1.5rem;
     border-radius: 1rem;
@@ -441,6 +446,435 @@ footer .desarrollo {
     font-size: 1rem;
     font-family: "Font Nav"; }
 
+@media screen and (min-width: 1501px) and (max-width: 1900px) {
+  .float {
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    font-size: 20px; }
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100lvh - 80px); }
+    .portada .titulo-logo-boton h2 {
+      font-size: 5.4rem;
+      font-family: "Font Tittle"; }
+    .portada .titulo-logo-boton h3 {
+      font-size: 2.5rem; }
+    .portada .titulo-logo-boton .btn-cursos button {
+      font-size: 1.3rem;
+      margin-bottom: 8rem; }
+    .portada .portada-img {
+      display: flex;
+      align-items: flex-end;
+      gap: 1rem; }
+      .portada .portada-img .img1-portada {
+        width: 35%; }
+      .portada .portada-img .img2-portada {
+        width: 35%; }
+    .portada .btn-cursos {
+      margin-top: 1rem; }
+      .portada .btn-cursos .cssbuttons-io-button {
+        font-size: 1rem;
+        padding-left: 0.65rem;
+        padding-right: 2.9em; }
+  .seccion-1 h3 {
+    top: 13rem;
+    left: 2rem;
+    font-size: 4rem; }
+  .seccion-1 .img-seccion1 {
+    width: 100%; }
+    .seccion-1 .img-seccion1 .img1-seccion1 {
+      top: 3rem;
+      width: 25%; }
+    .seccion-1 .img-seccion1 .img2-seccion1 {
+      width: 34%;
+      margin-right: 3rem; }
+  .info-index {
+    padding: 1.8rem 1rem; }
+    .info-index p {
+      font-size: 1.5rem; }
+    .info-index button {
+      font-size: 1.3rem;
+      margin-top: 2.3rem; }
+  .seccion-2 {
+    padding: 3rem 1.5rem; }
+    .seccion-2 h2 {
+      font-size: 3rem;
+      margin: 0;
+      text-align: center; }
+    .seccion-2 .galeria {
+      gap: 0.35rem; }
+      .seccion-2 .galeria .galeria-img img {
+        height: 450px; }
+      .seccion-2 .galeria .galeria-img:nth-child(1) {
+        grid-column-start: span 3; }
+      .seccion-2 .galeria .galeria-img:nth-child(5) {
+        grid-column-end: span 2; }
+      .seccion-2 .galeria .galeria-img:nth-child(10) {
+        grid-column-end: span 4; }
+  footer .back-footer h2 {
+    font-size: 2.5rem; }
+  footer .desarrollo p {
+    width: 70%; }
+  .texto-cursos {
+    text-align: center;
+    font-size: 4rem;
+    width: 90%; }
+  .container-cursos {
+    margin-top: 2rem; }
+    .container-cursos .fondo-curso {
+      width: 650px;
+      margin: auto; }
+      .container-cursos .fondo-curso img {
+        width: 300px;
+        margin: auto; }
+      .container-cursos .fondo-curso .info p {
+        width: 100%;
+        font-size: 1.7rem; }
+      .container-cursos .fondo-curso .info .button {
+        gap: 2rem; }
+        .container-cursos .fondo-curso .info .button button {
+          font-size: 1.5rem; }
+      .container-cursos .fondo-curso .modal-cont {
+        padding: 1rem; }
+        .container-cursos .fondo-curso .modal-cont img {
+          width: 30%; }
+        .container-cursos .fondo-curso .modal-cont h2 {
+          margin-bottom: 1rem;
+          font-size: 3rem; }
+        .container-cursos .fondo-curso .modal-cont h4 {
+          font-size: 1.5rem; }
+        .container-cursos .fondo-curso .modal-cont .contenido-modal {
+          grid-template-columns: repeat(1, auto); }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
+            margin-top: 0rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .temario li {
+              font-size: 1.2rem; }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
+            margin-top: 1.5rem;
+            font-size: 2rem; }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
+            text-align: start;
+            margin: auto;
+            padding: 1rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
+              margin-left: 1rem;
+              font-size: 1.2rem; }
+        .container-cursos .fondo-curso .modal-cont button {
+          font-size: 1rem;
+          padding: 0.3rem 3rem; }
+        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
+          margin-top: 1rem; }
+  video {
+    object-fit: cover; }
+  .container-contacto {
+    width: 550px;
+    height: 500px;
+    margin-top: 7rem; }
+    .container-contacto h2 {
+      font-size: 2.7rem; }
+    .container-contacto h4 {
+      font-size: 1.6rem; }
+    .container-contacto .contacto-wsp {
+      width: 400px; }
+      .container-contacto .contacto-wsp p {
+        font-size: 1.4rem; }
+      .container-contacto .contacto-wsp button {
+        font-size: 1.2rem;
+        padding: 0.4rem 1.5rem;
+        font-weight: 600; }
+        .container-contacto .contacto-wsp button img {
+          width: 30px; } }
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+  .float {
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    font-size: 20px; }
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100lvh - 80px); }
+    .portada .titulo-logo-boton h2 {
+      font-size: 5.4rem;
+      font-family: "Font Tittle"; }
+    .portada .titulo-logo-boton h3 {
+      font-size: 2.5rem; }
+    .portada .titulo-logo-boton .btn-cursos button {
+      font-size: 1.3rem;
+      margin-bottom: 8rem; }
+    .portada .portada-img {
+      display: flex;
+      align-items: flex-end;
+      gap: 1rem; }
+      .portada .portada-img .img1-portada {
+        width: 35%; }
+      .portada .portada-img .img2-portada {
+        width: 35%; }
+    .portada .btn-cursos {
+      margin-top: 1rem; }
+      .portada .btn-cursos .cssbuttons-io-button {
+        font-size: 1rem;
+        padding-left: 0.65rem;
+        padding-right: 2.9em; }
+  .seccion-1 h3 {
+    top: 13rem;
+    left: 2rem;
+    font-size: 4rem; }
+  .seccion-1 .img-seccion1 {
+    width: 100%; }
+    .seccion-1 .img-seccion1 .img1-seccion1 {
+      top: 3rem;
+      width: 25%; }
+    .seccion-1 .img-seccion1 .img2-seccion1 {
+      width: 34%;
+      margin-right: 3rem; }
+  .info-index {
+    padding: 1.8rem 1rem; }
+    .info-index p {
+      font-size: 1.35rem; }
+    .info-index button {
+      font-size: 1.3rem;
+      margin-top: 2.3rem; }
+  .seccion-2 {
+    padding: 3rem 1.5rem; }
+    .seccion-2 h2 {
+      font-size: 2.8rem;
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+    .seccion-2 .galeria {
+      gap: 0.35rem; }
+      .seccion-2 .galeria .galeria-img img {
+        height: 450px; }
+      .seccion-2 .galeria .galeria-img:nth-child(1) {
+        grid-column-start: span 3; }
+      .seccion-2 .galeria .galeria-img:nth-child(5) {
+        grid-column-end: span 2; }
+      .seccion-2 .galeria .galeria-img:nth-child(10) {
+        grid-column-end: span 4; }
+  footer .back-footer h2 {
+    font-size: 2.5rem; }
+  footer .desarrollo p {
+    width: 70%; }
+  .texto-cursos {
+    text-align: center;
+    font-size: 4rem;
+    width: 90%; }
+  .container-cursos {
+    grid-template-columns: repeat(1, auto);
+    margin-top: 2rem; }
+    .container-cursos .fondo-curso {
+      width: 75%;
+      margin: auto; }
+      .container-cursos .fondo-curso img {
+        width: 40%;
+        margin: auto; }
+      .container-cursos .fondo-curso .info p {
+        width: 100%;
+        font-size: 2rem; }
+      .container-cursos .fondo-curso .info .button {
+        gap: 2rem; }
+        .container-cursos .fondo-curso .info .button button {
+          font-size: 1.5rem; }
+      .container-cursos .fondo-curso .modal-cont {
+        padding: 1rem; }
+        .container-cursos .fondo-curso .modal-cont img {
+          width: 30%; }
+        .container-cursos .fondo-curso .modal-cont h2 {
+          margin-bottom: 1rem;
+          font-size: 2.5rem; }
+        .container-cursos .fondo-curso .modal-cont h4 {
+          font-size: 1.3rem; }
+        .container-cursos .fondo-curso .modal-cont .contenido-modal {
+          grid-template-columns: repeat(1, auto); }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
+            margin-top: 0rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .temario li {
+              font-size: 1.2rem; }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
+            margin-top: 1.5rem;
+            font-size: 2rem; }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
+            text-align: start;
+            margin: auto;
+            padding: 1rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
+              margin-left: 1rem;
+              font-size: 1.2rem; }
+        .container-cursos .fondo-curso .modal-cont button {
+          font-size: 1rem;
+          padding: 0.3rem 3rem; }
+        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
+          margin-top: 1rem; }
+  video {
+    object-fit: cover; }
+  .container-contacto {
+    width: 400px;
+    height: 450px;
+    margin-top: 7rem; }
+    .container-contacto h2 {
+      font-size: 2.7rem; }
+    .container-contacto h4 {
+      font-size: 1.4rem; }
+    .container-contacto .contacto-wsp {
+      width: 320px; }
+      .container-contacto .contacto-wsp p {
+        font-size: 1.2rem; }
+      .container-contacto .contacto-wsp button {
+        font-size: 18px;
+        padding: 0.4rem 1.5rem;
+        font-weight: 600; }
+        .container-contacto .contacto-wsp button img {
+          width: 30px; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .float {
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    font-size: 20px; }
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100lvh - 80px); }
+    .portada .titulo-logo-boton h2 {
+      font-size: 4.8rem;
+      font-family: "Font Tittle"; }
+    .portada .titulo-logo-boton h3 {
+      font-size: 2rem; }
+    .portada .titulo-logo-boton .btn-cursos button {
+      font-size: 1.1rem;
+      margin-bottom: 12rem; }
+    .portada .portada-img {
+      display: flex;
+      align-items: flex-end;
+      gap: 1rem; }
+      .portada .portada-img .img1-portada {
+        width: 37%; }
+      .portada .portada-img .img2-portada {
+        width: 37%; }
+    .portada .btn-cursos {
+      margin-top: 1rem; }
+      .portada .btn-cursos .cssbuttons-io-button {
+        font-size: 1rem;
+        padding-left: 0.65rem;
+        padding-right: 2.9em; }
+  .seccion-1 h3 {
+    top: 5rem;
+    left: 2rem;
+    font-size: 4rem; }
+  .seccion-1 .img-seccion1 {
+    width: 100%; }
+    .seccion-1 .img-seccion1 .img1-seccion1 {
+      top: 7rem;
+      width: 30%; }
+    .seccion-1 .img-seccion1 .img2-seccion1 {
+      width: 40%;
+      margin-right: 3rem; }
+  .info-index {
+    padding: 1.8rem 1rem; }
+    .info-index p {
+      font-size: 1.35rem; }
+    .info-index button {
+      font-size: 1.3rem;
+      margin-top: 2.3rem; }
+  .seccion-2 {
+    padding: 3rem 1.5rem; }
+    .seccion-2 h2 {
+      font-size: 2.5rem;
+      margin: 0;
+      padding: 0; }
+    .seccion-2 .galeria {
+      gap: 0.35rem; }
+      .seccion-2 .galeria .galeria-img img {
+        height: 450px; }
+      .seccion-2 .galeria .galeria-img:nth-child(1) {
+        grid-column-start: span 3; }
+      .seccion-2 .galeria .galeria-img:nth-child(5) {
+        grid-column-end: span 2; }
+      .seccion-2 .galeria .galeria-img:nth-child(10) {
+        grid-column-end: span 4; }
+  footer .back-footer h2 {
+    font-size: 2.5rem; }
+  footer .desarrollo p {
+    width: 70%; }
+  .texto-cursos {
+    text-align: center;
+    font-size: 3rem;
+    width: 90%; }
+  .container-cursos {
+    grid-template-columns: repeat(1, auto);
+    margin-top: 2rem; }
+    .container-cursos .fondo-curso {
+      width: 75%;
+      margin: auto; }
+      .container-cursos .fondo-curso img {
+        width: 40%;
+        margin: auto; }
+      .container-cursos .fondo-curso .info p {
+        width: 100%;
+        font-size: 1.3rem; }
+      .container-cursos .fondo-curso .info .button {
+        gap: 2rem; }
+        .container-cursos .fondo-curso .info .button button {
+          font-size: 1.2rem; }
+      .container-cursos .fondo-curso .modal-cont {
+        padding: 1rem; }
+        .container-cursos .fondo-curso .modal-cont img {
+          width: 30%; }
+        .container-cursos .fondo-curso .modal-cont h2 {
+          margin-bottom: 1rem;
+          font-size: 2.5rem; }
+        .container-cursos .fondo-curso .modal-cont h4 {
+          font-size: 1.3rem; }
+        .container-cursos .fondo-curso .modal-cont .contenido-modal {
+          grid-template-columns: repeat(1, auto); }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
+            margin-top: 0rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .temario li {
+              font-size: 1.2rem; }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal h3 {
+            margin-top: 1.5rem;
+            font-size: 2rem; }
+          .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 {
+            text-align: start;
+            margin: auto;
+            padding: 1rem; }
+            .container-cursos .fondo-curso .modal-cont .contenido-modal .info-curso1 li {
+              margin-left: 1rem;
+              font-size: 1.2rem; }
+        .container-cursos .fondo-curso .modal-cont button {
+          font-size: 1rem;
+          padding: 0.3rem 3rem; }
+        .container-cursos .fondo-curso .modal-cont .btn-cerrar {
+          margin-top: 1rem; }
+  video {
+    object-fit: cover; }
+  .container-contacto {
+    width: 400px;
+    height: 450px;
+    margin-top: 7rem; }
+    .container-contacto h2 {
+      font-size: 2.3rem; }
+    .container-contacto h4 {
+      font-size: 1.2rem; }
+    .container-contacto .contacto-wsp {
+      width: 320px; }
+      .container-contacto .contacto-wsp p {
+        font-size: 1.2rem; }
+      .container-contacto .contacto-wsp button {
+        font-size: 18px;
+        padding: 0.4rem 1.5rem;
+        font-weight: 600; }
+        .container-contacto .contacto-wsp button img {
+          width: 30px; } }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .float {
     width: 50px;
@@ -450,8 +884,8 @@ footer .desarrollo {
   .cerrar-nav,
   .abrir-nav {
     display: block; }
-  .abrir-nav img {
-    width: 40px; }
+  .abrir-nav i {
+    font-size: 1.8rem; }
   .div-nav {
     display: flex;
     justify-content: flex-end;
@@ -467,7 +901,7 @@ footer .desarrollo {
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: #2e0448;
+    background: linear-gradient(160deg, #7A7BA8 50%, #FFE6FF);
     padding: 1rem;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     z-index: 1;
@@ -485,7 +919,7 @@ footer .desarrollo {
     align-items: flex-end;
     height: calc(100lvh - 80px); }
     .portada .titulo-logo-boton h2 {
-      font-size: 3.3rem;
+      font-size: 4.3rem;
       font-family: "Font Tittle"; }
     .portada .titulo-logo-boton h3 {
       font-size: 2rem; }
@@ -570,12 +1004,12 @@ footer .desarrollo {
       .container-cursos .fondo-curso .modal-cont {
         padding: 1rem; }
         .container-cursos .fondo-curso .modal-cont img {
-          width: 70%; }
+          width: 40%; }
         .container-cursos .fondo-curso .modal-cont h2 {
           margin-bottom: 1rem;
-          font-size: 1.5rem; }
+          font-size: 1.8rem; }
         .container-cursos .fondo-curso .modal-cont h4 {
-          font-size: 1rem; }
+          font-size: 1.2rem; }
         .container-cursos .fondo-curso .modal-cont .contenido-modal {
           grid-template-columns: repeat(1, auto); }
           .container-cursos .fondo-curso .modal-cont .contenido-modal .temario {
@@ -624,6 +1058,8 @@ footer .desarrollo {
     height: 50px;
     right: 20px;
     font-size: 20px; }
+  .abrir-nav i {
+    font-size: 1.8rem; }
   .cerrar-nav,
   .abrir-nav {
     display: block; }
@@ -747,7 +1183,7 @@ footer .desarrollo {
       .container-cursos .fondo-curso .modal-cont {
         padding: 1rem; }
         .container-cursos .fondo-curso .modal-cont img {
-          width: 70%; }
+          width: 40%; }
         .container-cursos .fondo-curso .modal-cont h2 {
           margin-bottom: 1rem;
           font-size: 1.5rem; }
@@ -801,6 +1237,8 @@ footer .desarrollo {
     height: 50px;
     right: 20px;
     font-size: 20px; }
+  .abrir-nav i {
+    font-size: 1.7rem; }
   .cerrar-nav,
   .abrir-nav {
     display: block; }

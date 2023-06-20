@@ -32,9 +32,19 @@
     }
 
         .nav-abrir {
-                border: none;
-                outline: none;
-                color: white;
+                padding: 0.3rem;
+        }
+
+        .cerrar-nav{
+            color: white;
+            font-size: 2rem;
+            i{
+            transition: 0.2s;
+            }
+            i:hover {
+                transform: rotate(30deg);
+            }
+
         }
 
         .abrir-nav,
@@ -543,8 +553,7 @@
     .contacto-wsp {
         width: 500px;
         height: 300px;
-        background: url("../assets/background/backgroundProd.jpg");
-        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.487);
         margin: auto;
         margin-top: 1.5rem;
         border-radius: 1rem;
@@ -633,6 +642,849 @@ footer {
 
 
 
+// MEDIA QUERYS - 1900PX
+
+@media screen and (min-width: 1501px) and (max-width: 1900px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        font-size: 20px;
+    }
+
+        .portada {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: calc(100lvh - 80px);
+        .titulo-logo-boton {
+            
+            
+            h2 {
+                font-size: 5.4rem;
+                font-family: "Font Tittle";
+            }
+            h3 {
+                font-size: 2.5rem;
+            }
+            .btn-cursos {
+                button {
+                    font-size: 1.3rem;
+                    margin-bottom: 8rem;
+                }
+            }
+        }
+
+        .portada-img {
+            display: flex;
+            align-items: flex-end;
+
+            gap: 1rem;
+            
+            .img1-portada {
+                width: 35%;
+                
+            }
+            .img2-portada {
+                width: 35%;
+                
+            }
+        }
+
+        // BTN CURSO
+
+        .btn-cursos {
+            margin-top: 1rem;
+
+            .cssbuttons-io-button {
+                font-size: 1rem;
+                padding-left: 0.65rem;
+                padding-right: 2.9em;
+                }
+        }
+    }
+
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1900PX
+
+    .seccion-1 {
+        
+        h3 {
+            top: 13rem;
+            left: 2rem;
+            font-size: 4rem;
+        }
+        .img-seccion1 {
+            width: 100%;
+            
+            .img1-seccion1 {
+                top: 3rem;
+                width: 25%;
+            }
+            .img2-seccion1 {
+                width: 34%;
+                margin-right: 3rem;
+                
+            }
+        }
+    }
+
+    // INFO 
+    .info-index {
+        padding: 1.8rem 1rem;
+        p {
+            font-size: 1.5rem;
+        }
+        button {
+            font-size: 1.3rem;
+            margin-top: 2.3rem;
+        }
+    }
+
+    // SECCION 2 - GALERÍA - 1900PX
+
+    .seccion-2 {
+        
+        padding: 3rem 1.5rem;
+
+        h2 {
+            font-size: 3rem;
+            margin: 0;
+            text-align: center;
+        }
+        .galeria {
+            gap: 0.35rem;
+            
+            .galeria-img {
+                img {
+                    height: 450px;
+                }
+            }
+            
+            .galeria-img:nth-child(1){
+                grid-column-start: span 3;
+            }
+            .galeria-img:nth-child(5){
+                grid-column-end: span 2; 
+            }
+            .galeria-img:nth-child(10){
+                grid-column-end: span 4; 
+            }
+        }
+    }
+
+
+
+    // FOOTER
+
+    footer {
+        .back-footer {
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 70%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1900PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 4rem;
+        width: 90%;
+    }
+
+    .container-cursos {
+        
+        margin-top: 2rem;
+
+        .fondo-curso {
+            width: 650px;
+            margin: auto;
+            img {
+                width: 300px;
+                margin: auto;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 1.7rem;
+                }
+                .button {
+                    gap: 2rem;
+                    button {
+                        font-size: 1.5rem;
+                    }
+                }
+                
+            }
+
+            // MODAL - 1200PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 30%;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 3rem;
+                }
+
+                h4 {
+                    font-size: 1.5rem;
+                }
+
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                        li {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                        font-size: 2rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                                font-size: 1.2rem;
+                            }
+                    }
+                }
+                button {
+                    font-size: 1rem;
+                    padding: 0.3rem 3rem;
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+}
+
+
+    // PÁGINA CONTACTO - 1900px
+
+        video {
+            object-fit: cover;
+        }
+
+    .container-contacto {
+        width: 550px;
+        height: 500px;
+        margin-top: 7rem;
+
+        h2 {
+            font-size: 2.7rem;
+        }
+        h4 {
+            font-size: 1.6rem;
+        }
+
+        .contacto-wsp {
+            width: 400px;
+
+
+            p {
+                font-size: 1.4rem;
+            }
+
+            button {
+                font-size: 1.2rem;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+
+                img {
+                    width: 30px;
+                }
+            }
+
+        }
+    }
+
+}
+
+
+// MEDIA QUERYS - 1500PX
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        font-size: 20px;
+    }
+
+        .portada {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: calc(100lvh - 80px);
+        .titulo-logo-boton {
+            
+            
+            h2 {
+                font-size: 5.4rem;
+                font-family: "Font Tittle";
+            }
+            h3 {
+                font-size: 2.5rem;
+            }
+            .btn-cursos {
+                button {
+                    font-size: 1.3rem;
+                    margin-bottom: 8rem;
+                }
+            }
+        }
+
+        .portada-img {
+            display: flex;
+            align-items: flex-end;
+
+            gap: 1rem;
+            
+            .img1-portada {
+                width: 35%;
+                
+            }
+            .img2-portada {
+                width: 35%;
+                
+            }
+        }
+
+        // BTN CURSO
+
+        .btn-cursos {
+            margin-top: 1rem;
+
+            .cssbuttons-io-button {
+                font-size: 1rem;
+                padding-left: 0.65rem;
+                padding-right: 2.9em;
+                }
+        }
+    }
+
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1500PX
+
+    .seccion-1 {
+        
+        h3 {
+            top: 13rem;
+            left: 2rem;
+            font-size: 4rem;
+        }
+        .img-seccion1 {
+            width: 100%;
+            
+            .img1-seccion1 {
+                top: 3rem;
+                width: 25%;
+            }
+            .img2-seccion1 {
+                width: 34%;
+                margin-right: 3rem;
+                
+            }
+        }
+    }
+
+    // INFO 
+    .info-index {
+        padding: 1.8rem 1rem;
+        p {
+            font-size: 1.35rem;
+        }
+        button {
+            font-size: 1.3rem;
+            margin-top: 2.3rem;
+        }
+    }
+
+    // SECCION 2 - GALERÍA - 1500PX
+
+    .seccion-2 {
+        
+        padding: 3rem 1.5rem;
+
+        h2 {
+            font-size: 2.8rem;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .galeria {
+            gap: 0.35rem;
+            
+            .galeria-img {
+                img {
+                    height: 450px;
+                }
+            }
+            
+            .galeria-img:nth-child(1){
+                grid-column-start: span 3;
+            }
+            .galeria-img:nth-child(5){
+                grid-column-end: span 2; 
+            }
+            .galeria-img:nth-child(10){
+                grid-column-end: span 4; 
+            }
+        }
+    }
+
+
+
+    // FOOTER
+
+    footer {
+        .back-footer {
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 70%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1500PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 4rem;
+        width: 90%;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(1, auto);
+        margin-top: 2rem;
+
+        .fondo-curso {
+            width: 75%;
+            margin: auto;
+            img {
+                width: 40%;
+                margin: auto;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 2rem;
+                }
+                .button {
+                    gap: 2rem;
+                    button {
+                        font-size: 1.5rem;
+                    }
+                }
+                
+            }
+
+            // MODAL - 1200PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 30%;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.5rem;
+                }
+
+                h4 {
+                    font-size: 1.3rem;
+                }
+
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                        li {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                        font-size: 2rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                                font-size: 1.2rem;
+                            }
+                    }
+                }
+                button {
+                    font-size: 1rem;
+                    padding: 0.3rem 3rem;
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+}
+
+
+    // PÁGINA CONTACTO - 1500px
+
+        video {
+            object-fit: cover;
+        }
+
+    .container-contacto {
+        width: 400px;
+        height: 450px;
+        margin-top: 7rem;
+
+        h2 {
+            font-size: 2.7rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        .contacto-wsp {
+            width: 320px;
+
+
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+
+                img {
+                    width: 30px;
+                }
+            }
+
+        }
+    }
+
+
+}
+
+// MEDIA QUERYS - 1200PX
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    // BOTÓN WSP
+    .float {
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        font-size: 20px;
+    }
+
+        .portada {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: calc(100lvh - 80px);
+        .titulo-logo-boton {
+            
+            
+            h2 {
+                font-size: 4.8rem;
+                font-family: "Font Tittle";
+            }
+            h3 {
+                font-size: 2rem;
+            }
+            .btn-cursos {
+                button {
+                    font-size: 1.1rem;
+                    margin-bottom: 12rem;
+                }
+            }
+        }
+
+        .portada-img {
+            display: flex;
+            align-items: flex-end;
+
+            gap: 1rem;
+            
+            .img1-portada {
+                width: 37%;
+                
+            }
+            .img2-portada {
+                width: 37%;
+                
+            }
+        }
+
+        // BTN CURSO
+
+        .btn-cursos {
+            margin-top: 1rem;
+
+            .cssbuttons-io-button {
+                font-size: 1rem;
+                padding-left: 0.65rem;
+                padding-right: 2.9em;
+                }
+        }
+    }
+
+
+    // SECCION 1 - INFO Y DESCRIPCIÓN - 1200PX
+
+    .seccion-1 {
+        
+        h3 {
+            top: 5rem;
+            left: 2rem;
+            font-size: 4rem;
+        }
+        .img-seccion1 {
+            width: 100%;
+            
+            .img1-seccion1 {
+                top: 7rem;
+                width: 30%;
+            }
+            .img2-seccion1 {
+                width: 40%;
+                margin-right: 3rem;
+                
+            }
+        }
+    }
+
+    // INFO 
+    .info-index {
+        padding: 1.8rem 1rem;
+        p {
+            font-size: 1.35rem;
+        }
+        button {
+            font-size: 1.3rem;
+            margin-top: 2.3rem;
+        }
+    }
+
+    // SECCION 2 - GALERÍA - 1200PX
+
+    .seccion-2 {
+        
+        padding: 3rem 1.5rem;
+
+        h2 {
+            font-size: 2.5rem;
+            margin: 0;
+            padding: 0;
+        }
+        .galeria {
+            gap: 0.35rem;
+            
+            .galeria-img {
+                img {
+                    height: 450px;
+                }
+            }
+            
+            .galeria-img:nth-child(1){
+                grid-column-start: span 3;
+            }
+            .galeria-img:nth-child(5){
+                grid-column-end: span 2; 
+            }
+            .galeria-img:nth-child(10){
+                grid-column-end: span 4; 
+            }
+        }
+    }
+
+
+
+    // FOOTER
+
+    footer {
+        .back-footer {
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+        .desarrollo {
+            p {
+                width: 70%;
+            }
+        }
+    }
+
+    // PÁGINA CURSOS - 1200PX
+
+    .texto-cursos {
+        text-align: center;
+        font-size: 3rem;
+        width: 90%;
+    }
+
+    .container-cursos {
+        grid-template-columns: repeat(1, auto);
+        margin-top: 2rem;
+
+        .fondo-curso {
+            width: 75%;
+            margin: auto;
+            img {
+                width: 40%;
+                margin: auto;
+            }
+            .info {
+                p {
+                    width: 100%;
+                    font-size: 1.3rem;
+                }
+                .button {
+                    gap: 2rem;
+                    button {
+                        font-size: 1.2rem;
+                    }
+                }
+                
+            }
+
+            // MODAL - 1200PX
+
+            .modal-cont {
+                padding: 1rem;
+
+                img {
+                    width: 30%;
+                }
+                h2 {
+                    margin-bottom: 1rem;
+                    font-size: 2.5rem;
+                }
+
+                h4 {
+                    font-size: 1.3rem;
+                }
+
+                .contenido-modal {
+                    grid-template-columns: repeat(1, auto);
+
+                    .temario {
+                        margin-top: 0rem;
+                        li {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    h3 {
+                        margin-top: 1.5rem;
+                        font-size: 2rem;
+                    }
+
+                    .info-curso1 {
+                        text-align: start;
+                        margin: auto;
+                        padding: 1rem;
+                        
+                            li  {
+                                margin-left: 1rem;
+                                font-size: 1.2rem;
+                            }
+                    }
+                }
+                button {
+                    font-size: 1rem;
+                    padding: 0.3rem 3rem;
+                }
+                .btn-cerrar {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+}
+
+
+    // PÁGINA CONTACTO - 1200px
+
+        video {
+            object-fit: cover;
+        }
+
+    .container-contacto {
+        width: 400px;
+        height: 450px;
+        margin-top: 7rem;
+
+        h2 {
+            font-size: 2.3rem;
+        }
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        .contacto-wsp {
+            width: 320px;
+
+
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 0.4rem 1.5rem;
+                font-weight: 600;
+
+                img {
+                    width: 30px;
+                }
+            }
+
+        }
+    }
+
+
+}
 
 // MEDIA QUERYS - 1024PX
 
@@ -654,8 +1506,8 @@ footer {
         }
 
         .abrir-nav {
-            img {
-                width: 40px;
+            i {
+                font-size: 1.8rem;
             }
         }
 
@@ -678,7 +1530,7 @@ footer {
             top: 0;
             right: 0;
             bottom: 0;
-            background-color: rgb(46, 4, 72);
+            background: linear-gradient(160deg,  #7A7BA8 50%, #FFE6FF);
             padding: 1rem;
             box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
             z-index: 1;
@@ -704,7 +1556,7 @@ footer {
         
         .titulo-logo-boton {
             h2 {
-                font-size: 3.3rem;
+                font-size: 4.3rem;
                 font-family: "Font Tittle";
             }
             h3 {
@@ -869,21 +1721,21 @@ footer {
                 
             }
 
-            // MODAL - 370PX
+            // MODAL - 1024PX
 
             .modal-cont {
                 padding: 1rem;
 
                 img {
-                    width: 70%;
+                    width: 40%;
                 }
                 h2 {
                     margin-bottom: 1rem;
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                 }
 
                 h4 {
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                 }
 
                 .contenido-modal {
@@ -976,6 +1828,12 @@ footer {
         height: 50px;
         right: 20px;
         font-size: 20px;
+    }
+
+    .abrir-nav {
+        i {
+            font-size: 1.8rem;
+        }
     }
 
     // NAV BURGER - 768px
@@ -1201,13 +2059,13 @@ footer {
                 
             }
 
-            // MODAL - 370PX
+            // MODAL - 768PX
 
             .modal-cont {
                 padding: 1rem;
 
                 img {
-                    width: 70%;
+                    width: 40%;
                 }
                 h2 {
                     margin-bottom: 1rem;
@@ -1309,6 +2167,12 @@ footer {
         height: 50px;
         right: 20px;
         font-size: 20px;
+    }
+
+    .abrir-nav {
+        i {
+            font-size: 1.7rem;
+        }
     }
 
     // NAV BURGER - 480px
@@ -1440,7 +2304,7 @@ footer {
         }
     }
 
-    // SECCION 2 - GALERÍA - 380PX
+    // SECCION 2 - GALERÍA - 480PX
 
     .seccion-2 {
         
@@ -1525,7 +2389,7 @@ footer {
                 
             }
 
-            // MODAL - 370PX
+            // MODAL - 480PX
 
             .modal-cont {
                 padding: 1rem;
